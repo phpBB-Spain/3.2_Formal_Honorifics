@@ -1,9 +1,9 @@
-phpBB 3.1.6 Formal Honorifics (Usted)
+phpBB 3.2 Formal Honorifics (Usted)
 ================================
 
-Official Spanish Translation for phpBB 3.1.6 Formal Honorifics (USTED)
+Official Spanish Translation for phpBB 3.2 Formal Honorifics (USTED)
 
-Traducción oficial a Español de phpBB 3.1.6 Formal Honorifics (USTED)
+Traducción oficial a Español de phpBB 3.2 Formal Honorifics (USTED)
 
 ## Corrección de errores
 Para cualquier cambio a realizar, simplemente editar para realizar el cambio y "Pull Request".
