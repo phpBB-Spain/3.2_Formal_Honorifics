@@ -72,9 +72,6 @@ $lang = array_merge($lang, array(
 
 	'CAT_FLASH_FILES'					=> 'Archivos Flash',
 	'CAT_IMAGES'						=> 'Imágenes',
-	'CAT_QUICKTIME_FILES'				=> 'Archivos Quicktime',
-	'CAT_RM_FILES'						=> 'Archivos RealMedia',
-	'CAT_WM_FILES'						=> 'Archivos Windows Media',
 	'CHECK_CONTENT'						=> 'Comprobar archivos adjuntos',
 	'CHECK_CONTENT_EXPLAIN'				=> 'Algunos navegadores pueden ser engañados para que asuman un mimetype de archivos subibles incorrecto. Esta opción previene que tales archivos que puedan causar eso sean rechazados.',
 	'CREATE_GROUP'						=> 'Crear nuevo grupo',
@@ -106,9 +103,6 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_FLASH_FILES'	  			=> 'Archivos flash',
 	'EXT_GROUP_IMAGES'	  				=> 'Imágenes',
 	'EXT_GROUP_PLAIN_TEXT'	  			=> 'Texto plano',
-	'EXT_GROUP_QUICKTIME_MEDIA'   		=> 'Quicktime Media',
-	'EXT_GROUP_REAL_MEDIA'	  			=> 'Real Media',
-	'EXT_GROUP_WINDOWS_MEDIA'      		=> 'Windows Media',
 
 	'FILES_GONE'			=> 'Algunos de los archivos adjuntos que usted seleccionó para su eliminación ya no existen. Pueden haber sido eliminados. Los archivos adjuntos que no existen se eliminaron.',
 	'FILES_STATS_WRONG'		=> 'Las estadísticas de sus archivos son probablemente inexactos y deben ser resincronizados. Valores actuales: número de adjuntos = %1$d, tamaño total de adjuntos = %2$s.<br />Clic %3$saquí%4$s para resincronizar esto.',
