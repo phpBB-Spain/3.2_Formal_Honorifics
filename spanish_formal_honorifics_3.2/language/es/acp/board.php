@@ -99,6 +99,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_TOPIC_NOTIFY'		=> 'Permitir la suscripción a temas',
 	'BOARD_PM'			=> 'Mensajes privados',
 	'BOARD_PM_EXPLAIN'		=> 'Habilite o deshabilite mensajes privados para todos los usuarios.',
+	'ALLOW_BOARD_NOTIFICATIONS' => 'Permitir notificaciones del foro',
 ));
 
 // Avatar Settings
@@ -558,6 +559,8 @@ $lang = array_merge($lang, array(
 	'EMAIL_SIG_EXPLAIN'				=> 'Este texto se anexará a todos los emails que envíe el Sitio.',
 	'ENABLE_EMAIL'					=> 'Habilitar envío de emails',
 	'ENABLE_EMAIL_EXPLAIN'			=> 'Si se deshabilita, el Sitio no enviará ningún tipo de email. <em>Note que los parámetros de activación de la cuenta del Administrador y del usuario requiren que esta opción esté habilitada. Si la configuración de activación actual es “Usuario” or “Administrador” en los parámetros de activación, la deshabilitación de esta opción deshabilitará el registro.</em>',
+	'SEND_TEST_EMAIL'				=> 'Enviar un correo electrónico de prueba',
+	'SEND_TEST_EMAIL_EXPLAIN'		=> 'Esto enviará un correo electrónico de prueba a la dirección definida en su cuenta.',
 	'SMTP_AUTH_METHOD'				=> 'Método de autentificación para SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Solo usado si se configura usuario/contraseña, pregúntele a su ISP si no está seguro de cual método usar.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
@@ -573,6 +576,7 @@ $lang = array_merge($lang, array(
 	'SMTP_SETTINGS'					=> 'Configuración SMTP',
 	'SMTP_USERNAME'					=> 'Usuario SMTP',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Solo introduzca un usuario si su servidor SMTP lo requiere.',
+	'TEST_EMAIL_SENT'				=> 'El correo electrónico de prueba ha sido enviado.<br />Si no lo recibe, por favor revise su configuración de mensajes de correo electrónico.<br /><br />Si necesita ayuda, por favor visite los <a href="https://www.phpbb.com/community/">foros de soporte de phpBB</a>.',
 	'USE_SMTP'						=> 'Usar servidor SMTP para email',
 	'USE_SMTP_EXPLAIN'				=> 'Elija "Sí" si quiere o necesita enviar emails mediante un servidor específico en lugar de la función de email local.',
 ));
