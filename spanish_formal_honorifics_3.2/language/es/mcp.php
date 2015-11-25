@@ -135,6 +135,7 @@ $lang = array_merge($lang, array(
 	'LOCK_TOPICS_CONFIRM'		=> '¿Está seguro de querer bloquear los temas seleccionados?',
 	'LOGS_CURRENT_TOPIC'		=> 'Actualmente viendo registros de:',
 	'LOGIN_EXPLAIN_MCP'			=> 'Para moderar este foro debe autenticarse.',
+	'LOGVIEW_VIEWPOST'			=> 'Ver mensaje',
 	'LOGVIEW_VIEWTOPIC'			=> 'Ver tema',
 	'LOGVIEW_VIEWLOGS'			=> 'Ver registro del tema',
 	'LOGVIEW_VIEWFORUM'			=> 'Ver foro',
