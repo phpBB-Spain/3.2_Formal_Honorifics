@@ -176,8 +176,10 @@ $lang = array_merge($lang, array(
 	'NO_POLL_TITLE'				=> 'Tiene que poner un título a la encuesta',
 	'NO_POST'					=> 'El mensaje requerido no existe.',
 	'NO_POST_MODE'				=> 'No se especificó el modo de mensaje',
+	'NO_TEMP_DIR'				=> 'La carpeta temporal no se ha encontrado, o no se puede escribir.',
 
 	'PARTIAL_UPLOAD'			=> 'El archivo fue solo parcialmente subido',
+	'PHP_UPLOAD_STOPPED'		=> 'Una extensión PHP ha detenido la carga de archivos.',
 	'PHP_SIZE_NA'				=> 'El tamaño del archivo adjunto es muy grande.<br />No se puede determinar el tamaño máximo definido por PHP en php.ini.',
 	'PHP_SIZE_OVERRUN'			=> 'El tamaño del archivo adjunto es muy grande, el tamaño máximo de subida es %1$d %2$s.<br />Por favor, tenga en cuenta que está definido en php.ini y no puede ser cambiado.',
 	'PLACE_INLINE'				=> 'Insertar en texto',
