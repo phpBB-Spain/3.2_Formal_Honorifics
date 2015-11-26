@@ -50,7 +50,9 @@ $lang = array_merge($lang, array(
  	'CLI_DESCRIPTION_CRON_LIST'					=> 'Imprime una lista de trabajos cron preparados y no preparados.',
  	'CLI_DESCRIPTION_CRON_RUN'					=> 'Ejecuta todas las tareas cron preparadas.',
  	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'		=> 'Nombre de la tarea que se ejecutará',
+	'CLI_DESCRIPTION_DB_LIST'					=> 'Listar todas las migraciones instaladas y disponibles.',
 	'CLI_DESCRIPTION_DB_MIGRATE'				=> 'Actualiza la base de datos mediante la aplicación de migración.',
+	'CLI_DESCRIPTION_DB_REVERT'					=> 'Revertir una migración.',
 	'CLI_DESCRIPTION_DELETE_CONFIG'				=> 'Elimina una opción de configuración',
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Deshabilita la extensión especificada.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Habilita la extensión especificada.',
@@ -58,12 +60,27 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Obtiene el valor de una opción de configuración',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Incrementa el valor de una opción de configuración',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Lista de todas las extensiones de la base de datos y del sistema de archivos.',
+
+	'CLI_DESCRIPTION_OPTION_ENV'				=> 'Nombre del ambiente.',
 	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'Ejecutar en modo seguro (sin extensiones).',
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Iniciar el shell.',
+
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Purga la extensión especificada.',
+	'CLI_DESCRIPTION_REPARSER_LIST'				=> 'Enumera los tipos de texto que se puede reanálisis (reparsed).',
+	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Los Reparses almacenan texto con los servicios text_formatter actuales.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'	=> 'Tipo de texto del reanálisis. Dejar en blanco para reanálisis de todo.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'No guardar los cambios; simplemente imprimir lo que sucedería',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'ID del registro menor a porcesar',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'ID del registro mayor a procesar',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Número aproximado de registros a procesar ahora',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Comienzar el reanálisis donde la última ejecución se detuvo',
 	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Recalcula la columna de user_email_hash de la tabla de usuarios.',
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Establece el valor de una opción de configuración solamente si el valor antiguo coincide con el valor actual',
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Establece el valor de una opción de configuración',
+
+	'CLI_DESCRIPTION_THUMBNAIL_DELETE'		=> 'Eliminar todas las miniaturas existentes.',
+	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'	=> 'Generar todas las miniaturas que faltan.',
+	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'	=> 'Volver a crear todas las miniaturas.',
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'No se pudo deshabilitar la extensión %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'Extensión %s deshabilitada correctamente',
@@ -78,4 +95,32 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_ENABLED'			=> 'Habilitada',
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Todos los hashes de correo se han recalculado correctamente.',
+
+	'CLI_MIGRATION_NAME'					=> 'Nombre de Migración, incluyendo el espacio de nombres (utilice barras inclinadas en lugar de barras invertidas para evitar problemas).',
+	'CLI_MIGRATIONS_AVAILABLE'				=> 'Migraciones disponibles',
+	'CLI_MIGRATIONS_INSTALLED'				=> 'Migraciones instaladas',
+	'CLI_MIGRATIONS_ONLY_AVAILABLE'		    => 'Mostrar soló migraciones disponibles',
+	'CLI_MIGRATIONS_EMPTY'                  => 'No hay migraciones.',
+
+	'CLI_REPARSER_REPARSE_REPARSING'		=> 'Reanálisis %1$s (rango %2$d..%3$d)',
+	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'Reanálisis %s...',
+	'CLI_REPARSER_REPARSE_SUCCESS'			=> 'El reanálisis terminó correctamente',
+
+	// In all the case %1$s is the logical name of the file and %2$s the real name on the filesystem
+	// eg: big_image.png (2_a51529ae7932008cf8454a95af84cacd) generated.
+	'CLI_THUMBNAIL_DELETED'		=> '%1$s (%2$s) borrado.',
+	'CLI_THUMBNAIL_DELETING'	=> 'Eliminación de miniaturas',
+	'CLI_THUMBNAIL_SKIPPED'		=> '%1$s (%2$s) saltado.',
+	'CLI_THUMBNAIL_GENERATED'	=> '%1$s (%2$s) generado.',
+	'CLI_THUMBNAIL_GENERATING'	=> 'Generación de miniaturas',
+	'CLI_THUMBNAIL_GENERATING_DONE'	=> 'Todas las miniaturas se han regenerado.',
+	'CLI_THUMBNAIL_DELETING_DONE'	=> 'Todas las miniaturas se han eliminado.',
+
+	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'No hay miniaturas para generar.',
+	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'No hay miniaturas para borrar.',
+));
+
+// Additional help for commands.
+$lang = array_merge($lang, array(
+	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Opcionalmente se puede especificar un nombre de tarea cron para ejecutar, sólo la tarea cron especificada.',
 ));
