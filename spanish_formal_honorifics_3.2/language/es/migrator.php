@@ -48,9 +48,17 @@ $lang = array_merge($lang, array(
 	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Migración instalada correctamente (omitido): %s',
 	'MIGRATION_EXCEPTION_ERROR'			=> 'Algo salió mal en la solicitud y se produjo una excepción. Los cambios hechos antes de que ocurriera el error se invirtieron en la medida de nuestras capacidades, pero usted deberá comprobar los errores del foro.',
 	'MIGRATION_NOT_FULFILLABLE'			=> 'La migración "%1$s" no se ha realizado, falta la migración "%2$s".',
+	'MIGRATION_NOT_INSTALLED'			=> 'La migración "%s" no está instalada.',
 	'MIGRATION_NOT_VALID'            => '%s no es una migración válida.',
 	'MIGRATION_SCHEMA_DONE'				=> 'Esquema instalado: %1$s; Tiempo: %2$.2f segundos',
 	'MIGRATION_SCHEMA_RUNNING'         => 'Instalando esquema: %s.',
+
+	'MIGRATION_REVERT_DATA_DONE'		=> 'Datos revertidos: %1$s; Tiempo: %2$.2f segundos',
+	'MIGRATION_REVERT_DATA_IN_PROGRESS'	=> 'Reversión de datos: %1$s; Tiempo: %2$.2f segundos',
+	'MIGRATION_REVERT_DATA_RUNNING'		=> 'Reversión de datos: %s.',
+	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'Esquema revertido: %1$s; Tiempo: %2$.2f segundos',
+	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> 'Reversión del esquema: %s.',
+
 	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'La migración no es válida. Una sentencia if ayudante le falta una condición.',
 	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'La migración no es válida. Una sentencia if ayudante no se encuentra, la llamada válida a un paso de la migración.',
 	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'La migración no es válida. Una función personalizada exigible no pudo ser llamada.',
