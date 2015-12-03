@@ -343,67 +343,67 @@ $lang = array_merge($lang, array(
 
 // Requirements messages
 $lang = array_merge($lang, array(
-	'UPDATE_FILES_NOT_FOUND'	=> 'No valid update directory was found, please make sure you uploaded the relevant files.',
+	'UPDATE_FILES_NOT_FOUND'	=> 'No se encontró directorio de actualización válido. Por favor, asegúrese de que ha cargado los archivos correspondientes.',
 
-	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'Your version is up to date. There is no need to run the update tool. If you want to make an integrity check on your files make sure you uploaded the correct update files.',
-	'OLD_UPDATE_FILES'				=> 'Update files are out of date. The update files found are for updating from phpBB %1$s to phpBB %2$s but the latest version of phpBB is %3$s.',
-	'INCOMPATIBLE_UPDATE_FILES'		=> 'The update files found are incompatible with your installed version. Your installed version is %1$s and the update file is for updating phpBB %2$s to %3$s.',
+	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'Su versión está actualizada. No hay necesidad de ejecutar la herramienta de actualización. Si quiere verificar la integridad de sus archivos asegúrese de haber subido los archivos actualizados correctos.',
+	'OLD_UPDATE_FILES'				=> 'Los archivos actualizados no tienen la fecha correcta. Los archivos actualizados que se encontraron son para actualizar de phpBB %1$s a phpBB %2$s pero la última versión de phpBB es %3$s.',
+	'INCOMPATIBLE_UPDATE_FILES'		=> 'Los archivos actualizados encontrados son incompatibles con la versión instalada. La versión instalada es %1$s y el archivo actualizado es para phpBB %2$s a %3$s.',
 ));
 
 // Update files
 $lang = array_merge($lang, array(
-	'STAGE_UPDATE_FILES'		=> 'Update files',
+	'STAGE_UPDATE_FILES'		=> 'Actualizar archivos',
 
 	// Check files
-	'UPDATE_CHECK_FILES'	=> 'Check files to update',
+	'UPDATE_CHECK_FILES'	=> 'Comprobar archivos a actualizar',
 
 	// Update file differ
-	'FILE_DIFFER_ERROR_FILE_CANNOT_BE_READ'	=> 'The file differ failed to open %s.',
+	'FILE_DIFFER_ERROR_FILE_CANNOT_BE_READ'	=> 'El archivo de diferencias (differ) %s no se puede abrir.',
 
-	'UPDATE_FILE_DIFF'		=> 'Diffing changed files',
-	'ALL_FILES_DIFFED'		=> 'All modified files has been diffed.',
+	'UPDATE_FILE_DIFF'		=> 'Archivos diferenciados modificados',
+	'ALL_FILES_DIFFED'		=> 'Todos los archivos modificados han sido diferenciados.',
 
 	// File status
-	'UPDATE_CONTINUE_FILE_UPDATE'	=> 'Update files',
+	'UPDATE_CONTINUE_FILE_UPDATE'	=> 'Archivos de actualización',
 
-	'DOWNLOAD'							=> 'Download',
-	'DOWNLOAD_CONFLICTS'				=> 'Download merge conflicts archive',
-	'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Search for &lt;&lt;&lt; to spot conflicts',
-	'DOWNLOAD_UPDATE_METHOD'			=> 'Download modified files archive',
-	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Once downloaded you should unpack the archive. You will find the modified files you need to upload to your phpBB root directory within it. Please upload the files to their respective locations then. After you have uploaded all files, you may continue with the update process.',
+	'DOWNLOAD'							=> 'Descargar',
+	'DOWNLOAD_CONFLICTS'				=> 'Conflictos en la descarga de este archivo',
+	'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Buscar &lt;&lt;&lt; para descubrir los conflictos',
+	'DOWNLOAD_UPDATE_METHOD'			=> 'Descargar archivos modificados',
+	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Una vez descargado, debería desempaquetar el archivo. Encontrará dentro los archivos modificados que necesita subir al directorio raíz de su foro phpBB. Por favor, súbalos a sus respectivas ubicaciones. Después de que los haya subido todos, por favor verifique los archivos de nuevo con el otro botón de abajo.',
 
-	'FILE_ALREADY_UP_TO_DATE'		=> 'File is already up to date.',
-	'FILE_DIFF_NOT_ALLOWED'			=> 'File not allowed to be diffed.',
-	'FILE_USED'						=> 'Information used from',			// Single file
-	'FILES_CONFLICT'				=> 'Conflict files',
-	'FILES_CONFLICT_EXPLAIN'		=> 'The following files are modified and do not represent the original files from the old version. phpBB determined that these files create conflicts if they are tried to be merged. Please investigate the conflicts and try to manually resolve them or continue the update choosing the preferred merging method. If you resolve the conflicts manually check the files again after you modified them. You are also able to choose between the preferred merge method for every file. The first one will result in a file where the conflicting lines from your old file will be lost, the other one will result in losing the changes from the newer file.',
-	'FILES_DELETED'					=> 'Deleted files',
-	'FILES_DELETED_EXPLAIN'			=> 'The following files do not exist in the new version. These files have to be deleted from your installation.',
-	'FILES_MODIFIED'				=> 'Modified files',
-	'FILES_MODIFIED_EXPLAIN'		=> 'The following files are modified and do not represent the original files from the old version. The updated file will be a merge between your modifications and the new file.',
-	'FILES_NEW'						=> 'New files',
-	'FILES_NEW_EXPLAIN'				=> 'The following files currently do not exist within your installation. These files will be added to your installation.',
-	'FILES_NEW_CONFLICT'			=> 'New conflicting files',
-	'FILES_NEW_CONFLICT_EXPLAIN'	=> 'The following files are new within the latest version but it has been determined that there is already a file with the same name within the same position. This file will be overwritten by the new file.',
-	'FILES_NOT_MODIFIED'			=> 'Not modified files',
-	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'The following files are not modified and represent the original phpBB files from the version you want to update from.',
-	'FILES_UP_TO_DATE'				=> 'Already updated files',
-	'FILES_UP_TO_DATE_EXPLAIN'		=> 'The following files are already up to date and do not need to be updated.',
-	'TOGGLE_DISPLAY'				=> 'View/Hide file list',
+	'FILE_ALREADY_UP_TO_DATE'		=> 'El archivo ya está actualizado.',
+	'FILE_DIFF_NOT_ALLOWED'			=> 'El archivo no permite que se le aplique diff.',
+	'FILE_USED'						=> 'Información empleada',			// Single file
+	'FILES_CONFLICT'				=> 'Archivos en conflicto',
+	'FILES_CONFLICT_EXPLAIN'		=> 'Los siguientes archivos han sido modificados y no coinciden con los archivos originales de la antigua versión. phpBB ha determinado que esos archivos creará conflitos si se intenta insertarlos. Por favor, investigue los conflictos y trate de resolverlos manualmente o continúe la instalación decidiendo el método de integración preferido. Si resuelve los conflictos manualmente verifique los archivos nuevamente despues de modificarlos. También puede decidir un método de integración para cada archivo. El primero dará como resultado un archivo donde las líneas conflictivas de su viejo archivo se perderán, el otro dará como resultado perder los cambios en el nuevo archivo.',
+	'FILES_DELETED'					=> 'Archivos borrados',
+	'FILES_DELETED_EXPLAIN'			=> 'Los siguientes archivos no existen en la nueva versión. Estos archivos tienen que ser eliminados de su actual instalación.',
+	'FILES_MODIFIED'				=> 'Archivos modificados',
+	'FILES_MODIFIED_EXPLAIN'		=> 'Los siguientes archivos fueron modificados y no coinciden con los archivos originales de la antigua versión. Las modificaciones se insertarán a los archivos actualizados.',
+	'FILES_NEW'						=> 'Archivos nuevos',
+	'FILES_NEW_EXPLAIN'				=> 'Los siguientes archivos actualmente no existen en su instalación.',
+	'FILES_NEW_CONFLICT'			=> 'Archivos nuevos en conflicto',
+	'FILES_NEW_CONFLICT_EXPLAIN'	=> 'Los siguientes archivos son nuevos de la última versión pero se ha determinado que ya hay un archivo con el mismo nombre en la misma ubicación. Este archivo será sobreescrito por el nuevo.',
+	'FILES_NOT_MODIFIED'			=> 'Archivos sin modificación',
+	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'Los siguientes archivos no han sido modificados y coinciden con los archivos originales de phpBB para la versión a la cual quiere actualizar.',
+	'FILES_UP_TO_DATE'				=> 'Archivos actualizados',
+	'FILES_UP_TO_DATE_EXPLAIN'		=> 'Los siguientes archivos ya han sido actualizados.',
+	'TOGGLE_DISPLAY'				=> 'Ver/Ocultar lista de archivos',
 
 	// File updater
-	'UPDATE_UPDATING_FILES'	=> 'Updating files',
+	'UPDATE_UPDATING_FILES'	=> 'Actualizando archivos',
 
-	'UPDATE_FILE_UPDATER_HAS_FAILED'	=> 'File updater “%1$s“ has failed. The installer will try to fallback to “%2$s“.',
-	'UPDATE_FILE_UPDATERS_HAVE_FAILED'	=> 'The file updater failed. No further fallback methods are available.',
+	'UPDATE_FILE_UPDATER_HAS_FAILED'	=> 'La actualización del archivo “%1$s“ falló. El instalador intentará vuelve a “%2$s“.',
+	'UPDATE_FILE_UPDATERS_HAVE_FAILED'	=> 'La actualización del archivo falló. No hay métodos de retorno adicionales disponibles.',
 
-	'UPDATE_CONTINUE_UPDATE_PROCESS'	=> 'Continue update process',
-	'UPDATE_RECHECK_UPDATE_FILES'		=> 'Check files again',
+	'UPDATE_CONTINUE_UPDATE_PROCESS'	=> 'Continuar el proceso de actualización',
+	'UPDATE_RECHECK_UPDATE_FILES'		=> 'Comprobar archivos de nuevo',
 ));
 
 // Update database
 $lang = array_merge($lang, array(
-	'STAGE_UPDATE_DATABASE'		=> 'Update database',
+	'STAGE_UPDATE_DATABASE'		=> 'Actualizar base de datos',
 
-	'INLINE_UPDATE_SUCCESSFUL'		=> 'The database update was successful.',
+	'INLINE_UPDATE_SUCCESSFUL'		=> 'La actualización de base de datos se ha realizado correctamente.',
 ));
