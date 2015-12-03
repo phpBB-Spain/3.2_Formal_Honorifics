@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 
 	// Install page
 	'INSTALL_INTRO'	=> 'Bienvenido a la Instalación',
-	'INSTALL_INTRO_BODY'		=> 'Con esta opción, es posible instalar phpBB en su servidor.</p><p>Para proceder, necesita los configuración de su base de datos. Si no conoce los configuración de su base de datos, por favor, contacte a su proveedor de hosting y pregúntele. No podrá continuar sin ellos. Necesita:</p>
+	'INSTALL_INTRO_BODY'		=> 'Con esta opción, es posible instalar phpBB en su servidor.</p><p>Para proceder, necesita los datos de configuración de su base de datos. Si no conoce los datos de configuración de su base de datos, por favor, contacte a su proveedor de hosting y pregúntele. No podrá continuar sin ellos. Necesita:</p>
 	<ul>
 		<li>El tipo de base de datos - la base de datos que va a usar.</li>
 		<li>El nombre de servidor o DSN - la dirección del servidor.</li>
