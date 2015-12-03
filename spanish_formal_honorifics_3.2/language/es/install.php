@@ -114,100 +114,100 @@ $lang = array_merge($lang, array(
 
 // General error messages
 $lang = array_merge($lang, array(
-	'INST_ERR_MISSING_DATA'		=> 'You must fill out all fields in this block.',
-	'PHPBB_ALREADY_INSTALLED'	=> 'phpBB is already installed.'
+	'INST_ERR_MISSING_DATA'		=> 'Tiene que llenar todos los campos en este bloque.',
+	'PHPBB_ALREADY_INSTALLED'	=> 'phpBB ya esta instalado.'
 ));
 
 // Data obtaining translations
 $lang = array_merge($lang, array(
-	'STAGE_OBTAIN_DATA'	=> 'Set installation data',
+	'STAGE_OBTAIN_DATA'	=> 'Establecer datos de instalación',
 
 	//
 	// Admin data
 	//
-	'STAGE_ADMINISTRATOR'	=> 'Administrator details',
+	'STAGE_ADMINISTRATOR'	=> 'Detalles del administrador',
 
 	// Form labels
-	'ADMIN_CONFIG'				=> 'Administrator configuration',
-	'ADMIN_PASSWORD'			=> 'Administrator password',
-	'ADMIN_PASSWORD_CONFIRM'	=> 'Confirm administrator password',
-	'ADMIN_PASSWORD_EXPLAIN'	=> 'Please enter a password between 6 and 30 characters in length.',
-	'ADMIN_USERNAME'			=> 'Administrator username',
-	'ADMIN_USERNAME_EXPLAIN'	=> 'Please enter a username between 3 and 20 characters in length.',
+	'ADMIN_CONFIG'				=> 'Configuración del administrador',
+	'ADMIN_PASSWORD'			=> 'Contraseña del administrador',
+	'ADMIN_PASSWORD_CONFIRM'	=> 'Confirme contraseña del administrador',
+	'ADMIN_PASSWORD_EXPLAIN'	=> 'Por favor, introduzca una contraseña de entre 6 y 30 caracteres de longitud.',
+	'ADMIN_USERNAME'			=> 'Nombre del administrador',
+	'ADMIN_USERNAME_EXPLAIN'	=> 'Por favor, introduzca un nombre de entre 3 y 20 caracteres de longitud.',
 
 	// Errors
-	'INST_ERR_EMAIL_INVALID'		=> 'The email address you entered is invalid.',
-	'INST_ERR_PASSWORD_MISMATCH'	=> 'The passwords you entered did not match.',
-	'INST_ERR_PASSWORD_TOO_LONG'	=> 'The password you entered is too long. The maximum length is 30 characters.',
-	'INST_ERR_PASSWORD_TOO_SHORT'	=> 'The password you entered is too short. The minimum length is 6 characters.',
-	'INST_ERR_USER_TOO_LONG'		=> 'The username you entered is too long. The maximum length is 20 characters.',
-	'INST_ERR_USER_TOO_SHORT'		=> 'The username you entered is too short. The minimum length is 3 characters.',
+	'INST_ERR_EMAIL_INVALID'		=> 'El email que ingresó no es válido.',
+	'INST_ERR_PASSWORD_MISMATCH'	=> 'Las claves que ingresó no concuerdan.',
+	'INST_ERR_PASSWORD_TOO_LONG'	=> 'La contraseña que ingresó es muy larga. La longitud máxima es de 30 caracteres.',
+	'INST_ERR_PASSWORD_TOO_SHORT'	=> 'La ccontraseña que ingresó es muy corta. La longitud mímima es de 6 caracteres.',
+	'INST_ERR_USER_TOO_LONG'	=> 'El usuario que ingresó es muy largo. La longitud máxima es de 20 caracteres.',
+	'INST_ERR_USER_TOO_SHORT'	=> 'El usuario que ingresó es muy corto. La longitud mínima es de 3 caracteres.',
 
 	//
 	// Board data
 	//
 	// Form labels
-	'BOARD_CONFIG'		=> 'Bulletin board configuration',
-	'DEFAULT_LANGUAGE'	=> 'Default language',
-	'BOARD_NAME'		=> 'Title of the board',
-	'BOARD_DESCRIPTION'	=> 'Short description of the board',
+	'BOARD_CONFIG'		=> 'Configuración del foro',
+	'DEFAULT_LANGUAGE'	=> 'Idioma por defecto',
+	'BOARD_NAME'		=> 'Título del foro',
+	'BOARD_DESCRIPTION'	=> 'Breve descripción del foro',
 
 	//
 	// Database data
 	//
-	'STAGE_DATABASE'	=> 'Database settings',
+	'STAGE_DATABASE'	=> 'Ajustes de la base de datos',
 
 	// Form labels
-	'DB_CONFIG'				=> 'Database configuration',
-	'DBMS'					=> 'Database type',
-	'DB_HOST'				=> 'Database server hostname or DSN',
-	'DB_HOST_EXPLAIN'		=> 'DSN stands for Data Source Name and is relevant only for ODBC installs. On PostgreSQL, use localhost to connect to the local server via UNIX domain socket and 127.0.0.1 to connect via TCP. For SQLite, enter the full path to your database file.',
-	'DB_PORT'				=> 'Database server port',
-	'DB_PORT_EXPLAIN'		=> 'Leave this blank unless you know the server operates on a non-standard port.',
-	'DB_PASSWORD'			=> 'Database password',
-	'DB_NAME'				=> 'Database name',
-	'DB_USERNAME'			=> 'Database username',
-	'TABLE_PREFIX'			=> 'Prefix for tables in database',
-	'TABLE_PREFIX_EXPLAIN'	=> 'The prefix must start with a letter and must only contain letters, numbers and underscores.',
+	'DB_CONFIG'				=> 'Configuración de base de datos',
+	'DBMS'					=> 'Tipo de base de datos',
+	'DB_HOST'				=> 'Nombre del servidor de la base de datos o DSN',
+	'DB_HOST_EXPLAIN'		=> 'DSN significa Data Source Name y es relevante solo para instalaciones ODBC. En PostgreSQL, use localhost para conectar con el servidor local a través del dominio del socket UNIX y 127.0.0.1 para conectar via TCP. En SQLite, introduzca la ruta completa a su base de datos.',
+	'DB_PORT'				=> 'Puerto en el servidor de la base de datos',
+	'DB_PORT_EXPLAIN'		=> 'Déjelo en blanco a menos que quiera que el servidor opere en un puerto distinto al estándar.',
+	'DB_PASSWORD'			=> 'Contraseña de la base de datos',
+	'DB_NAME'				=> 'Nombre de la base de datos',
+	'DB_USERNAME'			=> 'Usuario de la base de datos',
+	'TABLE_PREFIX'			=> 'Prefijo para tablas en la base de datos',
+	'TABLE_PREFIX_EXPLAIN'	=> 'El prefijo debe comenzar con una letra y sólo debe contener letras, números y subrayados.',
 
 	// Database options
 	'DB_OPTION_MSSQL'		=> 'MSSQL Server 2000+',
-	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ via ODBC',
-	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Native ]',
+	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ vía ODBC',
+	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Nativo ]',
 	'DB_OPTION_MYSQL'		=> 'MySQL',
-	'DB_OPTION_MYSQLI'		=> 'MySQL with MySQLi Extension',
+	'DB_OPTION_MYSQLI'		=> 'MySQL con Extensiones MySQLi',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
 	'DB_OPTION_SQLITE'		=> 'SQLite 2',
 	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
 
 	// Errors
-	'INST_ERR_NO_DB'				=> 'Cannot load the PHP module for the selected database type.',
-	'INST_ERR_DB_INVALID_PREFIX'	=> 'The prefix you entered is invalid. It must start with a letter and must only contain letters, numbers and underscores.',
-	'INST_ERR_PREFIX_TOO_LONG'		=> 'The table prefix you have specified is too long. The maximum length is %d characters.',
-	'INST_ERR_DB_NO_NAME'			=> 'No database name specified.',
-	'INST_ERR_DB_FORUM_PATH'		=> 'The database file specified is within your board directory tree. You should put this file in a non web-accessible location.',
-	'INST_ERR_DB_CONNECT'			=> 'Could not connect to the database, see error message below.',
-	'INST_ERR_DB_NO_ERROR'			=> 'No error message given.',
-	'INST_ERR_PREFIX'				=> 'Tables with the specified prefix already exist, please choose an alternative.',
-	'INST_ERR_DB_NO_MYSQLI'			=> 'The version of MySQL installed on this machine is incompatible with the “MySQL with MySQLi Extension” option you have selected. Please try the “MySQL” option instead.',
-	'INST_ERR_DB_NO_SQLITE'			=> 'The version of the SQLite extension you have installed is too old, it must be upgraded to at least 2.8.2.',
-	'INST_ERR_DB_NO_SQLITE3'		=> 'The version of the SQLite extension you have installed is too old, it must be upgraded to at least 3.6.15.',
-	'INST_ERR_DB_NO_ORACLE'			=> 'The version of Oracle installed on this machine requires you to set the <var>NLS_CHARACTERSET</var> parameter to <var>UTF8</var>. Either upgrade your installation to 9.2+ or change the parameter.',
-	'INST_ERR_DB_NO_POSTGRES'		=> 'The database you have selected was not created in <var>UNICODE</var> or <var>UTF8</var> encoding. Try installing with a database in <var>UNICODE</var> or <var>UTF8</var> encoding.',
+	'INST_ERR_NO_DB'				=> 'No se puede cargar el módulo PHP para la base de datos seleccionada.',
+	'INST_ERR_DB_INVALID_PREFIX'	=> 'El prefijo introducido no es válido. Se debe comenzar con una letra y sólo debe contener letras, números y subrayados.',
+	'INST_ERR_PREFIX_TOO_LONG'		=> 'El prefijo de tabla que especificó es muy largo. La longitud máxima es de %d caracteres.',
+	'INST_ERR_DB_NO_NAME'			=> 'No se especificó nombre de base de datos.',
+	'INST_ERR_DB_FORUM_PATH'		=> 'La base de datos especificada está dentro del árbol de carpetas de su sitio. Debería poner este archivo en un lugar no accessible desde la web.',
+	'INST_ERR_DB_CONNECT'			=> 'No se puede conectar a la base de datos, mire el mensaje de error de abajo.',
+	'INST_ERR_DB_NO_ERROR'			=> 'No se proporcionó mensaje de error.',
+	'INST_ERR_PREFIX'				=> 'Ya existen tablas con el prefijo especificado, por favor elija uno diferente.',
+	'INST_ERR_DB_NO_MYSQLI'			=> 'La versión de MySQL instalada en esta máquina es incompatible con la opción “MySQL con extensiones MySQLi” que seleccionó. Por favor pruebe la opción “MySQL” en su lugar.',
+	'INST_ERR_DB_NO_SQLITE'			=> 'La versión de la extensión SQLite que tiene instalada es muy antigua, hay que actualizarla al menos a la 2.8.2.',
+	'INST_ERR_DB_NO_SQLITE3'		=> 'La versión de la extensión SQLite que tiene instalada es muy antigua, hay que actualizarla al menos a la 3.6.15.',
+	'INST_ERR_DB_NO_ORACLE'			=> 'La versión de Oracle instalada en esta máquina requiere que configure el parámetro <var>NLS_CHARACTERSET</var> a <var>UTF8</var>. O bien actualice su instalación a 9.2+ o cambie el parámetro.',
+	'INST_ERR_DB_NO_POSTGRES'		=> 'La base de datos que seleccionó no fue creada en <var>UNICODE</var> o <var>UTF8</var>. Pruebe a reinstalar con una base de datos <var>UNICODE</var> o <var>UTF8</var>.',
 
 	//
 	// Email data
 	//
-	'EMAIL_CONFIG'	=> 'E-mail configuration',
+	'EMAIL_CONFIG'	=> 'Configuración de correo electrónico',
 
 	//
 	// Server data
 	//
 	// Form labels
-	'SERVER_CONFIG'				=> 'Server configuration',
-	'SCRIPT_PATH'				=> 'Script path',
-	'SCRIPT_PATH_EXPLAIN'		=> 'The path where phpBB is located relative to the domain name, e.g. <samp>/phpBB3</samp>.',
+	'SERVER_CONFIG'				=> 'Configuración del servidor',
+	'SCRIPT_PATH'				=> 'Ruta del script',
+	'SCRIPT_PATH_EXPLAIN'		=> 'La ruta dónde está ubicado phpBB3 relativa al nombre de dominio, ej. <samp>/phpBB3</samp>.',
 ));
 
 // Default database schema entries...
@@ -258,64 +258,64 @@ $lang = array_merge($lang, array(
 
 // Common navigation items' translation
 $lang = array_merge($lang, array(
-	'MENU_OVERVIEW'		=> 'Overview',
-	'MENU_INTRO'		=> 'Introduction',
-	'MENU_LICENSE'		=> 'License',
-	'MENU_SUPPORT'		=> 'Support',
+	'MENU_OVERVIEW'		=> 'Vista Global',
+	'MENU_INTRO'		=> 'Introducción',
+	'MENU_LICENSE'		=> 'Licencia',
+	'MENU_SUPPORT'		=> 'Soporte',
 ));
 
 // Task names
 $lang = array_merge($lang, array(
 	// Install filesystem
-	'TASK_CREATE_CONFIG_FILE'	=> 'Creating configuration file',
+	'TASK_CREATE_CONFIG_FILE'	=> 'Creando archivo de configuración',
 
 	// Install database
-	'TASK_ADD_CONFIG_SETTINGS'		=> 'Adding configuration settings',
-	'TASK_ADD_DEFAULT_DATA'			=> 'Adding default settings to the database',
-	'TASK_CREATE_DATABASE_SCHEMA'	=> 'Creating database schema',
+	'TASK_ADD_CONFIG_SETTINGS'		=> 'Añadiendo ajustes de configuración',
+	'TASK_ADD_DEFAULT_DATA'			=> 'Añadiendo ajustes por defecto a la base de datos',
+	'TASK_CREATE_DATABASE_SCHEMA'	=> 'Creando esquema de la base de datos',
 
 	// Install data
-	'TASK_ADD_BOTS'			=> 'Registering bots',
-	'TASK_ADD_LANGUAGES'	=> 'Installing available languages',
-	'TASK_ADD_MODULES'		=> 'Installing modules',
+	'TASK_ADD_BOTS'			=> 'Registrando robots',
+	'TASK_ADD_LANGUAGES'	=> 'Instalando idiomas disponibles',
+	'TASK_ADD_MODULES'		=> 'Instalando módulos',
 
 	// Install finish tasks
-	'TASK_NOTIFY_USER'			=> 'Sending notification e-mail',
-	'TASK_POPULATE_MIGRATIONS'	=> 'Populating migrations',
+	'TASK_NOTIFY_USER'			=> 'Enviando notificación al correo electrónico',
+	'TASK_POPULATE_MIGRATIONS'	=> 'Rellenando migraciones',
 
 	// Installer general progress messages
-	'INSTALLER_FINISHED'	=> 'The installer has finished successfully',
+	'INSTALLER_FINISHED'	=> 'El instalador ha finalizado correctamente',
 ));
 
 // Installer's general messages
 $lang = array_merge($lang, array(
-	'MODULE_NOT_FOUND'				=> 'Module not found',
-	'MODULE_NOT_FOUND_DESCRIPTION'	=> 'A module could not be found because the service, %s, is undefined.',
+	'MODULE_NOT_FOUND'				=> 'Módulo no encontrado',
+	'MODULE_NOT_FOUND_DESCRIPTION'	=> 'Un módulo no se pudo encontrar porque el servicio, %s, no está definido.',
 
-	'TASK_NOT_FOUND'				=> 'Task not found',
-	'TASK_NOT_FOUND_DESCRIPTION'	=> 'A task could not be found because the service, %s, is undefined.',
+	'TASK_NOT_FOUND'				=> 'Tarea no encontrada',
+	'TASK_NOT_FOUND_DESCRIPTION'	=> 'Una tarea no se pudo encontrar porque el servicio, %s, no está definido.',
 
-	'SKIP_MODULE'	=> 'Skip “%s” module',
-	'SKIP_TASK'		=> 'Skip “%s” task',
+	'SKIP_MODULE'	=> 'Omitir el módulo “%s”',
+	'SKIP_TASK'		=> 'Omitir la tarea “%s”',
 
-	'TASK_SERVICE_INSTALLER_MISSING'	=> 'All installer task services should start with “installer”',
-	'TASK_CLASS_NOT_FOUND'				=> 'Installer task service definition is invalid. Service name “%1$s” given, the expected class namespace is “%2$s” for that. For more information please see the documentation of task_interface.',
+	'TASK_SERVICE_INSTALLER_MISSING'	=> 'Todas las tareas de servicios de instalación deben comenzar con “installer”',
+	'TASK_CLASS_NOT_FOUND'				=> 'La definición de la tarea de servicio de instalación no es válido. El nombre del servicio dado “%1$s”, el espacio de nombres de clase esperado para eso es “%2$s”. Para obtener más información, consulte la documentación de task_interface.',
 
 	'INSTALLER_CONFIG_NOT_WRITABLE'	=> 'The installer config file is not writable.',
 ));
 
 // CLI messages
 $lang = array_merge($lang, array(
-	'CLI_INSTALL_BOARD'				=> 'Install phpBB',
-	'CLI_INSTALL_SHOW_CONFIG'		=> 'Show the configuration which will be used',
-	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Validate a configuration file',
-	'CLI_CONFIG_FILE'				=> 'Config file to use',
+	'CLI_INSTALL_BOARD'				=> 'Instalar phpBB',
+	'CLI_INSTALL_SHOW_CONFIG'		=> 'Mostrar la configuración que se utilizará',
+	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Validar un archivo de configuración',
+	'CLI_CONFIG_FILE'				=> 'Archivo de configuración a usar',
 ));
 
 // Common updater messages
 $lang = array_merge($lang, array(
-	'UPDATE_INSTALLATION'			=> 'Update phpBB installation',
-	'UPDATE_INSTALLATION_EXPLAIN'	=> 'With this option, it is possible to update your phpBB installation to the latest version.<br />During the process all of your files will be checked for their integrity. You are able to review all differences and files before the update.<br /><br />The file update itself can be done in two different ways.</p><h2>Manual Update</h2><p>With this update you only download your personal set of changed files to make sure you do not lose your file modifications you may have done. After you downloaded this package you need to manually upload the files to their correct position under your phpBB root directory. Once done, you are able to do the file check stage again to see if you moved the files to their correct location.</p><h2>Automatic Update with FTP</h2><p>This method is similar to the first one but without the need to download the changed files and uploading them on your own. This will be done for you. In order to use this method you need to know your FTP login details since you will be asked for them. Once finished you will be redirected to the file check again to make sure everything got updated correctly.<br /><br />',
+	'UPDATE_INSTALLATION'			=> 'Actualizar la instalación de phpBB',
+	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Con esta opción, es posible actualizar su instalacion de phpBB a la última versión.<br />Durante el proceso se verificará la integridad de todos los archivos. Podrá también revisar las diferencias y archivos antes de actualizar.<br /><br /> La actualización de archivos en si misma se puede hacer de dos formas distintas.</p><h2>Actualización Manual</h2> <p>Con esta actualización solamente descarga su paquete de archivos cambiados personalizado para asegurarse de no perder sus cambios de archivos. Una vez terminado se le redirige a la comprobación de archivo de nuevo para asegurarse de que todo se actualizó correctamente.<br /><br />',
 ));
 
 // Updater forms
@@ -327,18 +327,18 @@ $lang = array_merge($lang, array(
 	'UPDATE_TYPE_DB_ONLY'	=> 'Update database only',
 
 	// File updater methods
-	'UPDATE_FILE_METHOD_TITLE'		=> 'File updater methods',
+	'UPDATE_FILE_METHOD_TITLE'		=> 'Métodos de actualización de los archivos',
 
-	'UPDATE_FILE_METHOD'			=> 'File updater method',
-	'UPDATE_FILE_METHOD_DOWNLOAD'	=> 'Download modified files in an archive',
-	'UPDATE_FILE_METHOD_FTP'		=> 'Update files via FTP (Automatic)',
-	'UPDATE_FILE_METHOD_FILESYSTEM'	=> 'Update files via direct file access (Automatic)',
+	'UPDATE_FILE_METHOD'			=> 'Método de actualización del archivo',
+	'UPDATE_FILE_METHOD_DOWNLOAD'	=> 'Descargar archivos modificados en un archivo',
+	'UPDATE_FILE_METHOD_FTP'		=> 'Archivos de actualización a través de FTP (Automático)',
+	'UPDATE_FILE_METHOD_FILESYSTEM'	=> 'Archivos de actualización a través de acceso directo a archivos (Automático)',
 
 	// File updater archives
-	'SELECT_DOWNLOAD_FORMAT'	=> 'Select download archive format',
+	'SELECT_DOWNLOAD_FORMAT'	=> 'Seleccione el formato del archivo de descarga',
 
 	// FTP settings
-	'FTP_SETTINGS'			=> 'FTP settings',
+	'FTP_SETTINGS'			=> 'Ajustes FTP',
 ));
 
 // Requirements messages
