@@ -231,7 +231,8 @@ $lang = array_merge($lang, array(
  	'CRON_NO_SUCH_TASK'		=> 'No se pudo encontrar la tarea cron “%s”.',
  	'CRON_NO_TASK'			=> 'No hay tareas cron que necesiten ejecutarse en estos momentos.',
  	'CRON_NO_TASKS'			=> 'No se han podido encontrar tareas cron.',
-	
+	'CURRENT_VERSION'		=> 'Versión actual',
+
 	'DEACTIVATE'				=> 'Desactivar',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'La ruta introducida "%s" no existe.',
 	'DIRECTORY_NOT_DIR'			=> 'La ruta introducida "%s" no es un directorio.',
@@ -256,6 +257,7 @@ $lang = array_merge($lang, array(
 	'IP'					=> 'IP del usuario',
 	'IP_HOSTNAME'			=> 'Direcciones de IP o nombres de host',
 
+	'LATEST_VERSION'		=> 'Última versión',
 	'LOAD_NOTIFICATIONS'			=> 'Mostrar Notificaciones',
 	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'Mostrar la lista de Notificaciones en todas las páginas (por lo general en la cabecera).',
 	'LOGGED_IN_AS'			=> 'Se identificó como:',
@@ -288,7 +290,9 @@ $lang = array_merge($lang, array(
 	'PERMISSIONS_TRANSFERRED_EXPLAIN' 	=> 'Ahora tiene los permisos de %1$s. Puede navegar por el Sitio con los permisos de este usuario pero no acceder al Panel de Control de Administración ya que los permisos administrativos no han sido transferidos. Está autorizado para <a href="%2$s"><strong>revertir sus permisos</strong></a> cuando quiera.',
 	'PROCEED_TO_ACP'					=> '%sIr al Panel de Control de Administración (PCA)%s',
 
+	'RELEASE_ANNOUNCEMENT'		=> 'Anuncio',
 	'REMIND'							=> 'Recordar',
+	'REPARSE_LOCK_ERROR'				=> 'El re-análisis ya está en funcionando con otro proceso.',
 	'RESYNC'							=> 'Resincronizar',
 
 	'RUNNING_TASK'			=> 'Ejecutando tarea: %s.',
@@ -420,7 +424,12 @@ $lang = array_merge($lang, array(
 	'VALUE'						=> 'Valor',
 	'VERSIONCHECK_FAIL'			=> 'Falló el intento de obtener información sobre la última versión.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'Volver a comprobar la versión',
-	'VIEW_ADMIN_LOG'			=> 'Ver log de administradores',
+	'VERSION_CHECK'				=> 'Comprobar versión',
+	'VERSION_CHECK_EXPLAIN'		=> 'Comprobar si su instalación de phpBB está actualizada.',
+	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'Su instalación phpBB no está actualizada.<br />A continuación se muestra un enlace al anuncio de la versión, que contiene más información, así como instrucciones sobre la actualización.',
+	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'Su instalación phpBB no está actualizada.',
+	'VERSION_UP_TO_DATE_ACP'	=> 'Su instalación de phpBB está actualizada. No hay actualizaciones disponibles en este momento.',
+	'VIEW_ADMIN_LOG'			=> 'Ver registro de Administradores',
 	'VIEW_INACTIVE_USERS'		=> 'Ver usuarios inactivos',
 
 	'WELCOME_PHPBB'			=> 'Bienvenido a phpBB',
