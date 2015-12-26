@@ -101,6 +101,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'El administrador del sitio requiere que esté registrado y se haya identificado para buscar usuarios.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'El administrador del sitio requiere que esté registrado y se haya identificado para ver perfiles.',
 
+	'MANAGE_GROUP'			=> 'Gestionar grupo',
 	'MORE_THAN'				=> 'Más que',
 
 	'NO_CONTACT_FORM'		=> 'El formulario de contacto con la Administración del Foro ha sido deshabilitado.',
