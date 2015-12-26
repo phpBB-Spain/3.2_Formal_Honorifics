@@ -80,6 +80,9 @@ $lang = array_merge($lang, array(
 
 	<p>Se mostrarán solamente las bases de datos soportadas por su servidor.',
 	'ACP_LINK'	=> 'Lléveme al <a href="%1$s">PCA</a>',
+
+	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB ya está instalado.',
+	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB aún no está instalado.'
 ));
 
 // Requirements translation
@@ -310,6 +313,9 @@ $lang = array_merge($lang, array(
 	'CLI_INSTALL_SHOW_CONFIG'		=> 'Mostrar la configuración que se utilizará',
 	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Validar un archivo de configuración',
 	'CLI_CONFIG_FILE'				=> 'Archivo de configuración a usar',
+	'MISSING_FILE'					=> 'No se ha podido acceder al archivo %1$s',
+	'MISSING_DATA'					=> 'En el archivo de configuración faltan datos o pueden contener ajustes no válidos.',
+	'INVALID_YAML_FILE'				=> 'No se pudo analizar el archivo YAML %1$s',
 ));
 
 // Common updater messages
