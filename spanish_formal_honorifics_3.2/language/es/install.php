@@ -322,6 +322,30 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'UPDATE_INSTALLATION'			=> 'Actualizar la instalación de phpBB',
 	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Con esta opción, es posible actualizar su instalacion de phpBB a la última versión.<br />Durante el proceso se verificará la integridad de todos los archivos. Podrá también revisar las diferencias y archivos antes de actualizar.<br /><br /> La actualización de archivos en si misma se puede hacer de dos formas distintas.</p><h2>Actualización Manual</h2> <p>Con esta actualización solamente descarga su paquete de archivos cambiados personalizado para asegurarse de no perder sus cambios de archivos. Una vez terminado se le redirige a la comprobación de archivo de nuevo para asegurarse de que todo se actualizó correctamente.<br /><br />',
+	'UPDATE_INSTRUCTIONS'			=> '
+
+		<h1>Anuncio de la publicación</h1>
+
+		<p>Por favor, lea el anuncio de la publicación para la última versión antes de continuar el proceso de actualización, puede tener información útil. También tiene enlaces a la descarga completa y al registro de cambios.</p>
+
+		<br />
+
+		<h1>Cómo actualizar su instalación con el paquete de actualización automática</h1>
+
+		<p>La forma recomendada de actualización de actualizar su instalación mencionada anteriormente, sólo es válida para el paquete de actualización automática. Usted también puede actualizar la instalación utilizando los métodos enumerados en el documento INSTALL.html. Los pasos para actualizar automáticamente phpBB3 son:</p>
+
+		<ul style="margin-left: 20px; font-size: 1.1em;">
+			<li>Visite la <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">página de descargas de phpBB.com</a> y descargue el archivo "Paquete de Actualización automática de phpBB".<br /><br /></li>
+			<li>Desempaquete el archivo.<br /><br /></li>
+			<li>Suba las carpetas de instalación descomprimida "install" y "vendor" completa a la carpeta raiz de phpBB (donde está el archivo config.php).<br /><br /></li>
+		</ul>
+
+		<p>Una vez subido su sitio estará fuera de línea para los usuarios normales debido a que la carpeta de instalación se halla presente.<br /><br />
+		<strong><a href="%1$s" title="%1$s">Ahora comenzará el proceso de actualización yendo con su navegador a la carpeta install</a>.</strong><br />
+		<br />
+		Posteriormente será guiado a través del proceso de actualización. Será notificado después de que la actualización se complete..
+		</p>
+	',
 ));
 
 // Updater forms
