@@ -332,7 +332,7 @@ $lang = array_merge($lang, array(
 
 		<h1>Cómo actualizar su instalación con el paquete de actualización automática</h1>
 
-		<p>La forma recomendada de actualización de actualizar su instalación mencionada anteriormente, sólo es válida para el paquete de actualización automática. Usted también puede actualizar la instalación utilizando los métodos enumerados en el documento INSTALL.html. Los pasos para actualizar automáticamente phpBB3 son:</p>
+		<p>La forma recomendada de actualización para actualizar su instalación mencionada anteriormente, sólo es válida para el paquete de actualización automática. Usted también puede actualizar la instalación utilizando los métodos enumerados en el documento INSTALL.html. Los pasos para actualizar automáticamente phpBB3 son:</p>
 
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>Visite la <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">página de descargas de phpBB.com</a> y descargue el archivo "Paquete de Actualización automática de phpBB".<br /><br /></li>
@@ -343,7 +343,7 @@ $lang = array_merge($lang, array(
 		<p>Una vez subido su sitio estará fuera de línea para los usuarios normales debido a que la carpeta de instalación se halla presente.<br /><br />
 		<strong><a href="%1$s" title="%1$s">Ahora comenzará el proceso de actualización yendo con su navegador a la carpeta install</a>.</strong><br />
 		<br />
-		Posteriormente será guiado a través del proceso de actualización. Será notificado después de que la actualización se complete..
+		Posteriormente será guiado a través del proceso de actualización. Será notificado después de que la actualización se complete.
 		</p>
 	',
 ));
