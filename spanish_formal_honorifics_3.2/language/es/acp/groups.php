@@ -131,6 +131,8 @@ $lang = array_merge($lang, array(
 	'NO_USERS_ADDED'			=> 'No se introdujeron usuarios al grupo.',
 	'NO_VALID_USERS'			=> 'No ha introducido ningún usuario eligible para esa acción.',
 
+	'PENDING_MEMBERS'			=> 'Pendiente',
+
 	'SELECT_GROUP'				=> 'Seleccionar un grupo',
 	'SPECIAL_GROUPS'			=> 'Grupos predefinidos',
 	'SPECIAL_GROUPS_EXPLAIN'	=> 'Grupos predefinidos son grupos especiales, no pueden ser borrados o modificados directamente. Sin embargo puede agregar usuarios y cambiar parámetros básicos. Haciendo clic en "Por Defecto" puede definirlo como grupo principal para todos sus usuarios.',
