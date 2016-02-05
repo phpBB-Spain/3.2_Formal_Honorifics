@@ -225,6 +225,9 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Volver',
 
+	'CONTAINER_EXCEPTION' => 'phpBB encontró un error al construir el contenedor debido a una extensión instalada. Por esta razón, todas las extensiones se han desactivado temporalmente. Por favor, intente purgar el caché del foro. Todas las extensiones serán automáticamente habilitadas de nuevo una vez que se resuelva el error del contenedor. Si este error continúa, por favor visite <a href="https://www.phpbb.com/support">phpBB.com</a> para soporte.',
+	'EXCEPTION' => 'Excepción',
+
 	'COLOUR_SWATCH'			=> 'Paleta de colores WWW',
 	'CONFIG_UPDATED'		=> 'Configuración actualizada correctamente.',
  	'CRON_LOCK_ERROR'		=> 'No se ha podido obtener bloqueo de cron.',
