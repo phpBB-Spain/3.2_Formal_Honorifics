@@ -437,3 +437,112 @@ $lang = array_merge($lang, array(
 
 	'INLINE_UPDATE_SUCCESSFUL'		=> 'La actualización de base de datos se ha realizado correctamente.',
 ));
+
+// Converter
+$lang = array_merge($lang, array(
+	// Common converter messages
+	'CONVERT_NOT_EXIST'			=> 'El conversor especificado no existe.',
+	'DEV_NO_TEST_FILE'			=> 'No ha sido especificado un valor para la variable test_file en el conversor. Si es un usuario de ese conversor, no debería estar viendo este error, Por favor, reporte este mensaje al autor del conversor. Si es usted, tiene que especificar el nombre de un archivo que exista en el sitio original para permitir que sea verificada la ruta al mismo.',
+	'COULD_NOT_FIND_PATH'		=> 'No se puede encontrar la ruta a su antiguo sitio. Por favor, verifique sus parámetros e intente de nuevo.<br />» La ruta especificada fue %s.',
+	'CONFIG_PHPBB_EMPTY'		=> 'La variable de configuración para “%s” está vacía.',
+
+	'MAKE_FOLDER_WRITABLE'		=> 'Por favor, asegúrese de que esta carpeta existe y que el servidor web puede escribirla luego pruebe otra vez:<br />»<strong>%s</strong>.',
+	'MAKE_FOLDERS_WRITABLE'		=> 'Por favor, asegúrese de que estas carpetas existen y que el servidor web puede escribir en ellas; luego pruebe otra vez:<br />»<strong>%s</strong>.',
+
+	'INSTALL_TEST'				=> 'Probar de nuevo',
+
+	'NO_TABLES_FOUND'			=> 'No se encontraron las tablas.',
+	'TABLES_MISSING'			=> 'No se puede encontrar estas tablas<br />» <strong>%s</strong>.',
+	'CHECK_TABLE_PREFIX'		=> 'Por favor, verifique el prefijo y pruebe de nuevo.',
+
+	// Conversion in progress
+	'CONTINUE_CONVERT'			=> 'Continuar conversión',
+	'CONTINUE_CONVERT_BODY'		=> 'Se ha determinado un intento previo de conversión. Puede elegir entre iniciar una nueva conversión, o continuar la existente.',
+	'CONVERT_NEW_CONVERSION'	=> 'Nueva conversión',
+	'CONTINUE_OLD_CONVERSION'	=> 'Continuar la conversión previamente iniciada',
+
+	// Start conversion
+	'SUB_INTRO'					=> 'Introducción',
+	'CONVERT_INTRO'				=> 'Bienvenido al conversor unificado de phpBB',
+	'CONVERT_INTRO_BODY'		=> 'Desde aquí puede importar datos de otros sitios instalados. La lista de abajo muestra todos los módulos de conversión disponibles actualmente. Si no hay ningún conversor mostrado para la versión que quiere, por favor visite nuestro sitio web dónde puede haber más módulos para descargar.',
+	'AVAILABLE_CONVERTORS'		=> 'Conversores disponibles',
+	'NO_CONVERTORS'				=> 'No hay disponibles conversores para usar.',
+	'CONVERT_OPTIONS'			=> 'Opciones',
+	'SOFTWARE'					=> 'Software del foro',
+	'VERSION'					=> 'Versión',
+	'CONVERT'					=> 'Convertir',
+
+	// Settings
+	'STAGE_SETTINGS'			=> 'Ajustes',
+	'TABLE_PREFIX_SAME'			=> 'El prefijo para las tablas necesita ser uno usado por el software que está convirtiendo.<br />» El prefijo especificado fue %s.',
+	'DEFAULT_PREFIX_IS'			=> 'El conversor no fue capaz de encontrar tablas con el prefijo especificado. Por favor, asegúrese de haber insertado los detalles correctos para el sitio que está convirtiendo. El prefijo de tabla por defecto para %1$s es <strong>%2$s</strong>.',
+	'SPECIFY_OPTIONS'			=> 'Especificar opciones de conversión',
+	'FORUM_PATH'				=> 'Ruta del foro',
+	'FORUM_PATH_EXPLAIN'		=> 'Esta es la ruta <strong>relativa</strong> en el disco de su antiguo sitio desde el directorio <strong>raíz de su instalación phpBB</strong>.',
+	'REFRESH_PAGE'				=> 'Refresque la página para continuar con la conversión',
+	'REFRESH_PAGE_EXPLAIN'		=> 'Si elige SÍ, el conversor actualizará la página para continuar la conversión después de haber finalizado un paso. Si esta es su primera conversión con propósito de prueba y determinar errores por adelantado, le sugerimos que seleccione NO.',
+
+	// Conversion
+	'STAGE_IN_PROGRESS'			=> 'Conversión en progreso',
+
+	'AUTHOR_NOTES'				=> 'Notas del autor<br />» %s',
+	'STARTING_CONVERT'			=> 'Starting conversion process',
+	'CONFIG_CONVERT'			=> 'Convirtiendo la configuración',
+	'DONE'						=> 'Hecho',
+	'PREPROCESS_STEP'			=> 'Ejecutando funciones/consultas previas',
+	'FILLING_TABLE'				=> 'Llenando tabla <strong>%s</strong>',
+	'FILLING_TABLES'			=> 'Llenando tablas',
+	'DB_ERR_INSERT'				=> 'Error mientras procesaba consulta <code>INSERT</code>.',
+	'DB_ERR_LAST'				=> 'Error mientras procesaba <var>query_last</var>.',
+	'DB_ERR_QUERY_FIRST'		=> 'Error mientras procesaba <var>query_first</var>.',
+	'DB_ERR_QUERY_FIRST_TABLE'	=> 'Error mientras procesaba <var>query_first</var>, %s (“%s”).',
+	'DB_ERR_SELECT'				=> 'Error mientras ejecutaba consulta <code>SELECT</code>.',
+	'STEP_PERCENT_COMPLETED'	=> 'Paso <strong>%d</strong> de <strong>%d</strong>',
+	'FINAL_STEP'				=> 'Procesando el paso final',
+	'SYNC_FORUMS'				=> 'Comenzando a sincronizar foros',
+	'SYNC_POST_COUNT'			=> 'Sincronizando post_counts',
+	'SYNC_POST_COUNT_ID'		=> 'Sincronizando post_counts desde <var>entry</var> %1$s desde %2$s.',
+	'SYNC_TOPICS'				=> 'Comenzando a sincronizar temas',
+	'SYNC_TOPIC_ID'				=> 'Synchronising topics from <var>topic_id</var> %1$s to %2$s.',
+	'PROCESS_LAST'				=> 'Haciendo últimos ajustes',
+	'UPDATE_TOPICS_POSTED'		=> 'Generando información de temas publicados',
+	'UPDATE_TOPICS_POSTED_ERR'	=> 'Ha ocurrido un error mientras generaba información de topics posteados. Puede reintentar este paso en el Panel de Control de Administración (PCA) después de completar el proceso de conversión.',
+	'CONTINUE_LAST'				=> 'Continuar al último paso',
+	'CLEAN_VERIFY'				=> 'Limpiando y verificando la estructura final',
+	'NOT_UNDERSTAND'			=> 'No se puede entender %s #%d, tabla %s (“%s”)',
+	'NAMING_CONFLICT'			=> 'Conflicto de nombres: %s y %s ambos son alias<br /><br />%s',
+
+	// Finish conversion
+	'CONVERT_COMPLETE'			=> 'Conversión completada',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Ha convertido su sitio a phpBB 3.2 correctamente. Ahora puede identificarse y <a href="../">acceder a su sitio</a>. Recuerde que hay ayuda disponible en línea para usar phpBB3 vía <a href="https://www.phpbb.com/support/docs/en/3.2/ug/">Documentación</a>, y los <a href="https://www.phpbb.com/community/viewforum.php?f=466">foros de soporte</a> (ambos en inglés).',
+
+	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'El FTP para subir adjuntos está habilitado en el viejo sitio. Por favor, deshabilite esta opción de FTP y asegúrese de especificar una capeta válida para subir, luego copie todos los adjuntos a esta nueva carpeta. Una vez hecho esto, reinicie el conversor.',
+	'CONV_ERROR_CONFIG_EMPTY'			=> 'No hay información de conversión disponible para la misma.',
+	'CONV_ERROR_FORUM_ACCESS'			=> 'Imposible obtener información de acceso al foro.',
+	'CONV_ERROR_GET_CATEGORIES'			=> 'Imposible obtener las categorías.',
+	'CONV_ERROR_GET_CONFIG'				=> 'No se puede recuperar la configuración de su foro.',
+	'CONV_ERROR_COULD_NOT_READ'			=> 'Imposible acceder/leer “%s”.',
+	'CONV_ERROR_GROUP_ACCESS'			=> 'Imposible obtener información de autentificación de grupo.',
+	'CONV_ERROR_INCONSISTENT_GROUPS'	=> 'Inconsistencia en tabla de grupos detectada en add_bots() - es necesario agregar manualmente todos los grupos especiales.',
+	'CONV_ERROR_INSERT_BOT'				=> 'Imposible insertar robot en la tabla de usuarios',
+	'CONV_ERROR_INSERT_BOTGROUP'		=> 'Imposible insertar robot en la tabla de robots.',
+	'CONV_ERROR_INSERT_USER_GROUP'		=> 'Imposible insertar usuario en la tabla user_group.',
+	'CONV_ERROR_MESSAGE_PARSER'			=> 'Mensaje de error del analizador',
+	'CONV_ERROR_NO_AVATAR_PATH'			=> 'Nota para el desarrollador: tiene que especificar $convertor[\'avatar_path\'] para usar %s.',
+	'CONV_ERROR_NO_FORUM_PATH'			=> 'La ruta relativa del foro no ha sido especificada.',
+	'CONV_ERROR_NO_GALLERY_PATH'		=> 'Nota para el desarrollador: ha de especificar $convertor[\'avatar_gallery_path\'] para usar %s.',
+	'CONV_ERROR_NO_GROUP'				=> 'No se puede encontrar el grupo “%1$s” en %2$s.',
+	'CONV_ERROR_NO_RANKS_PATH'			=> 'Nota para el desarrollador: ha de especificar $convertor[\'ranks_path\'] para usar %s.',
+	'CONV_ERROR_NO_SMILIES_PATH'		=> 'Nota para el desarrollador: ha de especificar $convertor[\'smilies_path\'] para usar %s.',
+	'CONV_ERROR_NO_UPLOAD_DIR'			=> 'Nota para el desarrollador: ha de especificar $convertor[\'upload_path\'] para usar %s.',
+	'CONV_ERROR_PERM_SETTING'			=> 'Imposible insertar/actualizar la configuración de permisos.',
+	'CONV_ERROR_PM_COUNT'				=> 'Imposible seleccionar carpeta de recuento de MP.',
+	'CONV_ERROR_REPLACE_CATEGORY'		=> 'Imposible insertar nuevo foro reemplazando antigua categoría.',
+	'CONV_ERROR_REPLACE_FORUM'			=> 'Imposible insertar nuevo foro reemplazando antiguo foro.',
+	'CONV_ERROR_USER_ACCESS'			=> 'Imposible obtener información de autentificación de usuario.',
+	'CONV_ERROR_WRONG_GROUP'			=> 'Grupo incorrecto “%1$s” definido en %2$s.',
+	'CONV_OPTIONS_BODY'					=> 'Esta página recopila los datos requeridos para acceder al foro antiguo. Introduzca los detalles de la base de datos de su foro; el conversor no cambiará nada en esa base de datos. Debe deshabilitarse el foro antiguo para una conversión correcta.',
+	'CONV_SAVED_MESSAGES'				=> 'Mensajes guardados',
+
+	'PRE_CONVERT_COMPLETE'			=> 'Todos los pasos de preconversión se han completado correctamente. Ahora puede comenzar el proceso de conversión. Por favor, tenga en cuenta que podría tener que ajustar varios detalles manualmente. Después de la conversión, verifique especialmente los permisos asignados, reconstruya su índice de búsqueda si es necesario y también asegúrese de que los archivos se copien correctamente, por ejemplo avatares y emoticonos.',
+));
