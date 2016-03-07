@@ -535,6 +535,8 @@ $lang = array_merge($lang, array(
 	'REFERRER_VALID_EXPLAIN'		=> 'Si está habilitado, el referido de peticiones de POST será comparado con la configuración existente de la ruta del host/script. Esto puede causar contingencias en foros que usen varios dominios y/o identificaciones externas.',
 	'TPL_ALLOW_PHP'					=> 'Permitir PHP en plantillas',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Si se habilita esta opción, <code>PHP</code> e <code>INCLUDEPHP</code> serán convertidos en las plantillas.',
+	'UPLOAD_CERT_VALID'				=> 'Validar el certificado de subida',
+	'UPLOAD_CERT_VALID_EXPLAIN'		=> 'Si está habilitado, se validarán los certificados de archivos remotos. Esto requiere que el haz de CA a ser definida en los ajustes de <samp>openssl.cafile</samp> o <samp>curl.cainfo</samp> en su php.ini.',
 ));
 
 // Email Settings
