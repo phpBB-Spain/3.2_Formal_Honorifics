@@ -89,12 +89,12 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	// Filesystem requirements
 	'FILE_NOT_EXISTS'			=> 'El archivo no existe',
-	'FILE_NOT_EXISTS_EXPLAIN'	=> 'Para poder instalar phpBB el archivo %1$s necesita existir.',
+	'FILE_NOT_EXISTS_EXPLAIN'	=> 'Para poder instalar phpBB el archivo %1$s debe existir.',
 	'FILE_NOT_WRITABLE'			=> 'No se puede escribir en el archivo',
 	'FILE_NOT_WRITABLE_EXPLAIN'	=> 'Para poder instalar phpBB se debe poder escribir en el archivo %1$s.',
 
 	'DIRECTORY_NOT_EXISTS'				=> 'El directorio no existe',
-	'DIRECTORY_NOT_EXISTS_EXPLAIN'		=> 'Para poder instalar phpBB el directorio %1$s necesita existir.',
+	'DIRECTORY_NOT_EXISTS_EXPLAIN'		=> 'Para poder instalar phpBB el directorio %1$s debe existir.',
 	'DIRECTORY_NOT_WRITABLE'			=> 'No se puede escribir en el directorio',
 	'DIRECTORY_NOT_WRITABLE_EXPLAIN'	=> 'Para poder instalar phpBB se debe poder escribir en el directorio %1$s.',
 
@@ -118,7 +118,9 @@ $lang = array_merge($lang, array(
 // General error messages
 $lang = array_merge($lang, array(
 	'INST_ERR_MISSING_DATA'		=> 'Tiene que llenar todos los campos en este bloque.',
-	'PHPBB_ALREADY_INSTALLED'	=> 'phpBB ya esta instalado.'
+
+	'TIMEOUT_DETECTED_TITLE'	=> 'El instalador detecta un tiempo de espera',
+	'TIMEOUT_DETECTED_MESSAGE'	=> 'El instalador detecta un tiempo de espera, puede tratar de actualizar la página, lo que puede conducir a la corrupción de datos. Le sugerimos que o bien aumente la configuración de tiempo de espera, o intente utilizar el CLI.',
 ));
 
 // Data obtaining translations
@@ -198,6 +200,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_SQLITE3'		=> 'La versión de la extensión SQLite que tiene instalada es muy antigua, hay que actualizarla al menos a la 3.6.15.',
 	'INST_ERR_DB_NO_ORACLE'			=> 'La versión de Oracle instalada en esta máquina requiere que configure el parámetro <var>NLS_CHARACTERSET</var> a <var>UTF8</var>. O bien actualice su instalación a 9.2+ o cambie el parámetro.',
 	'INST_ERR_DB_NO_POSTGRES'		=> 'La base de datos que seleccionó no fue creada en <var>UNICODE</var> o <var>UTF8</var>. Pruebe a reinstalar con una base de datos <var>UNICODE</var> o <var>UTF8</var>.',
+	'INST_SCHEMA_FILE_NOT_WRITABLE'	=> 'No se puede escribir en el archivo de esquema',
 
 	//
 	// Email data
@@ -273,9 +276,11 @@ $lang = array_merge($lang, array(
 	'TASK_CREATE_CONFIG_FILE'	=> 'Creando archivo de configuración',
 
 	// Install database
-	'TASK_ADD_CONFIG_SETTINGS'		=> 'Añadiendo ajustes de configuración',
-	'TASK_ADD_DEFAULT_DATA'			=> 'Añadiendo ajustes por defecto a la base de datos',
-	'TASK_CREATE_DATABASE_SCHEMA'	=> 'Creando esquema de la base de datos',
+	'TASK_ADD_CONFIG_SETTINGS'			=> 'Añadiendo ajustes de configuración',
+	'TASK_ADD_DEFAULT_DATA'				=> 'Añadiendo ajustes por defecto a la base de datos',
+	'TASK_CREATE_DATABASE_SCHEMA_FILE'	=> 'Creando archivo esquema de la base de datos',
+	'TASK_SETUP_DATABASE'				=> 'Creando la base de datos',
+	'TASK_CREATE_TABLES'				=> 'Creando tablas',
 
 	// Install data
 	'TASK_ADD_BOTS'			=> 'Registrando robots',
@@ -310,12 +315,14 @@ $lang = array_merge($lang, array(
 // CLI messages
 $lang = array_merge($lang, array(
 	'CLI_INSTALL_BOARD'				=> 'Instalar phpBB',
+	'CLI_UPDATE_BOARD'				=> 'Actualizar phpBB',
 	'CLI_INSTALL_SHOW_CONFIG'		=> 'Mostrar la configuración que se utilizará',
 	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Validar un archivo de configuración',
 	'CLI_CONFIG_FILE'				=> 'Archivo de configuración a usar',
 	'MISSING_FILE'					=> 'No se ha podido acceder al archivo %1$s',
 	'MISSING_DATA'					=> 'En el archivo de configuración faltan datos o pueden contener ajustes no válidos.',
 	'INVALID_YAML_FILE'				=> 'No se pudo analizar el archivo YAML %1$s',
+	'CONFIGURATION_VALID'			=> 'El archivo de configuración es válido',
 ));
 
 // Common updater messages
