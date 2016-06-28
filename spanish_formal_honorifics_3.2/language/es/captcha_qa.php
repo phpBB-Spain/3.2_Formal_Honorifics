@@ -38,8 +38,9 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'CAPTCHA_QA'               => 'Q&amp;A (Preguntas y Respuestas)',
-	'CONFIRM_QUESTION_EXPLAIN' => 'Esta pregunta es una forma de evitar inserciones automatizadas por spambots.',
+	'CONFIRM_QUESTION_EXPLAIN' => 'Esta pregunta es una forma de evitar inserciones automatizadas por Spambots.',
 	'CONFIRM_QUESTION_WRONG'   => 'Ha proporcionado una respuesta incorrecta a la pregunta.',
+	'CONFIRM_QUESTION_MISSING'	=> 'Las preguntas para el código de imagen no pudieron ser recuperadas. Por favor, póngase en contacto con un Administrador del foro.',
 
 	'QUESTION_ANSWERS'		   => 'Respuestas',
 	'ANSWERS_EXPLAIN'		   => 'Por favor, introduzca respuestas válidas para la pregunta, una por línea.',
@@ -60,5 +61,4 @@ $lang = array_merge($lang, array(
 
 	'QA_ERROR_MSG'			   => 'Por favor, rellene todos los campos e introduzca al menos una respuesta.',
 	'QA_LAST_QUESTION'		   => 'No puede eliminar todas las preguntas mientras el plugin esté activo.',
-
 ));
