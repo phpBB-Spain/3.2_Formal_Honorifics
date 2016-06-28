@@ -767,7 +767,7 @@ $lang = array_merge($lang, array(
 	'TOPIC_REVIEW'	=> 'Revisión de tema',
 	'TOPIC_TITLE'	=> 'Título del tema',
 	'TOPIC_UNAPPROVED'	=> 'Este tema no ha sido aprobado.',
-    'TOPIC_DELETED'		=> 'Este tema ha sido borrado.',
+    	'TOPIC_DELETED'		=> 'Este tema ha sido borrado.',
 	'TOTAL_ATTACHMENTS'	=> 'Adjunto(s)',
 	'TOTAL_LOGS'		=> array(
 		1	=> '%d registro',
@@ -777,7 +777,7 @@ $lang = array_merge($lang, array(
 		1	=> '%d mensaje privado en total',
 		2	=> '%d mensajes privados en total',
 	),
-    'TOPIC_POLL'		=> 'Este tema tiene una encuesta.',
+    	'TOPIC_POLL'		=> 'Este tema tiene una encuesta.',
 	'TOTAL_POSTS'		=> 'Mensajes totales',
 	'TOTAL_POSTS_COUNT'	=> array(
 		2	=> 'Mensajes totales <strong>%d</strong>',
@@ -821,7 +821,7 @@ $lang = array_merge($lang, array(
 	'USERS'	=> 'Usuarios',
 	'USE_PERMISSIONS'	=> 'Transferirme los permisos del Usuario',
 
-	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Lo sentimos pero no está autorizado a usar esta opción. Puede que se haya registrado hace poco aquí y necesite participar más para poder hacer uso de esta opción.',
+	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Lo sentimos pero no está autorizado a usar esta opción. Puede que se haya registrado hace poco aquí y necesite participar más en las discusiones para poder hacer uso de esta opción.',
 
 	'VARIANT_DATE_SEPARATOR'	=> ' / ',
 	'VIEWED'	=> 'Visto',
