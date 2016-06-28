@@ -82,6 +82,21 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'	=> 'Generar todas las miniaturas que faltan.',
 	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'	=> 'Volver a crear todas las miniaturas.',
 
+	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Activar (o desactivar) una cuenta de usuario.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Nombre de usuario de la cuenta para activar.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_DEACTIVATE'	=> 'Desactivar la cuenta del usuario',
+	'CLI_DESCRIPTION_USER_ACTIVATE_ACTIVE'		=> 'El usuario ya está activo.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_INACTIVE'	=> 'El usuario ya está inactivo.',
+	'CLI_DESCRIPTION_USER_ADD'					=> 'Añadir un nuevo usuario.',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_USERNAME'	=> 'Nombre de usuario para el nuevo usuario',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_PASSWORD'	=> 'Contraseña para el nuevo usuario',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_EMAIL'		=> 'Dirección de correo electrónico del nuevo usuario',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Enviar correo electrónico de activación de cuenta para el nuevo usuario (no enviada por defecto)',
+	'CLI_DESCRIPTION_USER_DELETE'				=> 'Borrar una cuenta de usuario.',
+	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Nombre de usuario del usuario a borrar',
+	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Borrar todos los mensajes del usuario. Sin esta opción, se conservarán los mensajes del usuario.',
+	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Volver a limpiar nombres de usuario.',
+
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'No se pudo deshabilitar la extensión %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'Extensión %s deshabilitada correctamente',
 	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'No se pudo habilitar la extensión %s',
@@ -118,9 +133,24 @@ $lang = array_merge($lang, array(
 
 	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'No hay miniaturas para generar.',
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'No hay miniaturas para borrar.',
+
+	'CLI_USER_ADD_SUCCESS'		=> 'Usuario %s añadido correctamente.',
+	'CLI_USER_DELETE_CONFIRM'	=> '¿Está seguro de querer borrar ‘%s’? [S/N]',
+	'CLI_USER_RECLEAN_START'	=> 'Volver a limpiar nombre de usuario',
+	'CLI_USER_RECLEAN_DONE'		=> [
+		0	=> 'Limpieza completa. No hay nombres de usuario para limpiar.',
+		1	=> 'Limpieza completa. %d nombre de usuario ha sido limpiado.',
+		2	=> 'Limpieza completa. %d nombres de usuario han sido limpiados.',
+	],
 ));
 
 // Additional help for commands.
 $lang = array_merge($lang, array(
 	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Opcionalmente se puede especificar un nombre de tarea cron para ejecutar, sólo la tarea cron especificada.',
+	'CLI_HELP_USER_ACTIVATE'	=> 'Activar una cuenta de usuario, o desactivar una cuenta de usuario usando la opción <info>--deactivate</info>.
+Opcionalmente, para enviar un correo electrónico de activación al usuario, use la opción <info>--send-email</info>.',
+	'CLI_HELP_USER_ADD'			=> 'El comando <info>%command.name%</info> añade un nuevo usuario:
+Si este comando se ejecuta sin opciones, se le pedirá que las introduzca.
+Opcionalmente, para enviar un correo electrónico al nuevo usuario, use la opción <info>--send-email</info>.',
+	'CLI_HELP_USER_RECLEAN'		=> 'Volver a limpiar los nombres de usuario comprobarán todos los nombres de usuario almacenados, y garantizará que también se almacenan versiones limpias. Los nombres de usuario limpiados son un caso de forma insensible, NFC normalizado y transformado a ASCII.',
 ));
