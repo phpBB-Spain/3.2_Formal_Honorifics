@@ -225,6 +225,16 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Volver',
 
+	'CANNOT_CHANGE_FILE_GROUP'	=> 'Incapaz de cambiar el grupo de archivos',
+	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Incapaz de cambiar los permisos de archivos',
+	'CANNOT_COPY_FILES'		=> 'Incapaz de copiar archivos',
+	'CANNOT_CREATE_SYMLINK'	=> 'Incapaz de crear un enlace simbólico',
+	'CANNOT_DELETE_FILES'	=> 'Incapaz de borrar los archivos del sistema',
+	'CANNOT_DUMP_FILE'		=> 'Incapaz de volvar el archivo',
+	'CANNOT_MIRROR_DIRECTORY'	=> 'Incapaz de reflejar el directorio',
+	'CANNOT_RENAME_FILE'	=> 'Incapaz de renombrar un archivo del sistema',
+	'CANNOT_TOUCH_FILES'	=> 'Incapaz de determinar si el archivo existe',
+
 	'CONTAINER_EXCEPTION' => 'phpBB encontró un error al construir el contenedor debido a una extensión instalada. Por esta razón, todas las extensiones se han desactivado temporalmente. Por favor, intente purgar el caché del foro. Todas las extensiones serán automáticamente habilitadas de nuevo una vez que se resuelva el error del contenedor. Si este error continúa, por favor visite <a href="https://www.phpbb.com/support">phpBB.com</a> para soporte.',
 	'EXCEPTION' => 'Excepción',
 
@@ -587,7 +597,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>Tema aprobado</strong><br />» %s',
 	'LOG_TOPIC_RESTORED'		=> '<strong>Tema restaurado</strong><br />» %s',
-    'LOG_TOPIC_DISAPPROVED'		=> '<strong>Tema desaprobado “%1$s” escrito por “%3$s” por la siguiente razón</strong><br />» %2$s',
+    	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Tema desaprobado “%1$s” escrito por “%3$s” por la siguiente razón</strong><br />» %2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>Resincronizados contadores de temas</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Cambiado: tipo de tema</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>Abierto: tema</strong><br />» %s',
@@ -606,6 +616,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_ERROR_JABBER'		=> '<strong>Error Jabber</strong><br />» %s',
 	'LOG_ERROR_EMAIL'		=> '<strong>Error Email</strong><br />» %s',
+	'LOG_ERROR_CAPTCHA'		=> '<strong>Error CAPTCHA</strong><br />» %s',
 
 	'LOG_FORUM_ADD'							=> '<strong>Creado: Nuevo foro</strong><br />» %s',
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Permisos de foro copiados</strong> de %1$s<br />» %2$s',
