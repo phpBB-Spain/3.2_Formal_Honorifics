@@ -2,7 +2,7 @@ Subject: phpBB instalado
 
 Felicidades,
 
-Phpbb está instalado correctamente en su servidor.
+phpBB está instalado correctamente en su servidor.
 
 Este correo contiene información importante acerca del foro recién instalado. La contraseña fue encriptada en la base de datos y no podrá recuperarla, sin embargo puede solicitar que se le recuerde la contraseña, y recibirá un correo como éste.
 
