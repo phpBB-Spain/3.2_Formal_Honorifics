@@ -380,7 +380,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_CDN_EXPLAIN'				=> 'Si esta opción está activada, algunos archivos se sirven desde los servidores de terceros externos en lugar de su servidor. Esto reduce el ancho de banda requerido por el servidor, pero puede presentar un problema de privacidad para algunos Administradores del foro. En una instalación por defecto de phpBB, incluye la carga de “jQuery” y la fuente “Open Sans” desde la red de contenido de Google.',
 	'ALLOW_LIVE_SEARCHES'			=> 'Permitir búsquedas en vivo',
 	'ALLOW_LIVE_SEARCHES_EXPLAIN'	=> 'Si se habilita esta opción, los usuarios disponen de sugerencias de palabras clave del tipo en ciertos campos del foro.',
-    'CUSTOM_PROFILE_FIELDS'			=> 'Campos de perfil personalizados',
+    	'CUSTOM_PROFILE_FIELDS'			=> 'Campos de perfil personalizados',
 	'LIMIT_LOAD'					=> 'Límite de carga de sistema',
 	'LIMIT_LOAD_EXPLAIN'			=> 'Si el promedio de carga del sistema por minuto excede este valor, el Sitio automáticamente se pondrá fuera de línea. Un valor de 1.0 equivale ~100% de utilización de un procesador. Esto solo funciona en servidores UNIX.',
 	'LIMIT_SESSIONS'				=> 'Límite de sesiones',
@@ -428,7 +428,7 @@ $lang = array_merge($lang, array(
 
 	'APACHE_SETUP_BEFORE_USE'	=> 'Tiene que configurar la autentificación de Apache antes de cambiar a este método. Tenga en cuenta que el nombre de usuario que emplea para autentificación de Apache tiene que ser el mismo que usa en phpBB.',
 
-    'LDAP'							=> 'LDAP',
+    	'LDAP'							=> 'LDAP',
 	'LDAP_DN'						=> 'LDAP base <var>dn</var>',
 	'LDAP_DN_EXPLAIN'				=> 'Éste es el Distinguished Name, que se usa para la localización de usuario, ej. <samp>o=My Company,c=US</samp>',
 	'LDAP_EMAIL'					=> 'LDAP atributo email',
@@ -575,6 +575,7 @@ $lang = array_merge($lang, array(
 	'SMTP_PORT'						=> 'Puerto servidor SMTP',
 	'SMTP_PORT_EXPLAIN'				=> 'Cámbielo solo si sabe que su servidor SMTP está en un puerto diferente.',
 	'SMTP_SERVER'					=> 'Dirección servidor SMTP',
+	'SMTP_SERVER_EXPLAIN'			=> 'Tenga en cuenta que debe proporcionar el protocolo que utiliza su servidor. Si está utilizando SSL, tiene que ser "ssl://your.mailserver.com"',
 	'SMTP_SETTINGS'					=> 'Configuración SMTP',
 	'SMTP_USERNAME'					=> 'Usuario SMTP',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Solo introduzca un usuario si su servidor SMTP lo requiere.',
