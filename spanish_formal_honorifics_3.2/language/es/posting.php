@@ -90,7 +90,10 @@ $lang = array_merge($lang, array(
 	'DELETE_PERMANENTLY'		=> 'Borrar permanentemente',
 	'DELETE_POST_CONFIRM'		=> '¿Está seguro de que quiere borrar este mensaje?',
 	'DELETE_POST_PERMANENTLY_CONFIRM'	=> '¿Está seguro de que quiere borrar <strong>permanentemente</strong> este mensaje?',
-	'DELETE_POST_PERMANENTLY'	=> 'Borrar permanentemente este mensaje para que no pueda ser recuperado',
+	'DELETE_POST_PERMANENTLY'	=> array(
+		1	=> 'Borrar permanentemente este mensaje para que no pueda ser recuperado',
+		2	=> 'Borrar permanentemente estos %1$d mensajes para que no puedan ser recuperados',
+	),
 	'DELETE_POSTS_CONFIRM'		=> '¿Está seguro de que quiere borrar estos mensajes?',
 	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> '¿Está seguro de que quiere borrar <strong>permanentemente</strong> estos mensajes?',
 	'DELETE_REASON'				=> 'Razón del borrado',
@@ -98,6 +101,10 @@ $lang = array_merge($lang, array(
 	'DELETE_POST_WARN'			=> 'Borrar este mensaje',
 	'DELETE_TOPIC_CONFIRM'		=> '¿Está seguro de que quiere borrar este tema?',
 	'DELETE_TOPIC_PERMANENTLY'	=> 'Borrar permanentemente este tema para que no pueda ser recuperado',
+	'DELETE_TOPIC_PERMANENTLY'	=> array(
+		1	=> 'Borrar permanentemente este tema para que no pueda ser recuperado',
+		2	=> 'Borrar permanentemente estos %1$d temas para que no puedan ser recuperados',
+	),
 	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> '¿Está seguro de que quiere borrar <strong>permanentemente</strong> este tema?',
 	'DELETE_TOPICS_CONFIRM'		=> '¿Está seguro de que quiere borrar estos temas?',
 	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> '¿Está seguro de que quiere borrar <strong>permanentemente</strong> estos temas?',
