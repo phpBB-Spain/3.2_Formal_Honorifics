@@ -100,6 +100,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_DRIVER_UPLOAD_TITLE'	=> 'Subir avatar',
 	'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> 'Subir su propio avatar personalizado.',
 	'AVATAR_EXPLAIN'				=> 'Dimensiones máximas; anchura: %1$s, altura: %2$s, tamaño del archivo: %3$.2f KiB.',
+	'AVATAR_EXPLAIN_NO_FILESIZE'	=> 'Dimensiones máximas; anchura: %1$s, altura: %2$s.',
 	'AVATAR_FEATURES_DISABLED'		=> 'La funcionalidad de avatar está actualmente desactivada.',
 	'AVATAR_GALLERY'				=> 'Galería local',
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'No se puede subir avatar a %s.',
