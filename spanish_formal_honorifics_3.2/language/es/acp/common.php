@@ -108,6 +108,8 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_PERMISSIONS'		=> 'Permisos de grupos',
 	'ACP_GROUPS_POSITION'			=> 'Administrar posición de los grupos',
 
+	'ACP_HELP_PHPBB'			=> 'Ayuda de soporte phpBB',
+
 	'ACP_ICONS'					=> 'Iconos del tema',
 	'ACP_ICONS_SMILIES'			=> 'Iconos/Emoticonos del tema',
 	'ACP_INACTIVE_USERS'		=> 'Usuarios inactivos',
@@ -167,7 +169,6 @@ $lang = array_merge($lang, array(
 	'ACP_SEARCH_SETTINGS'		=> 'Configuración de búsqueda',
 
 	'ACP_SECURITY_SETTINGS'		=> 'Configuración de seguridad',
-	'ACP_SEND_STATISTICS'		=> 'Enviar información estadística',
 	'ACP_SERVER_CONFIGURATION'	=> 'Configuración del servidor',
 	'ACP_SERVER_SETTINGS'		=> 'Configuración del servidor',
 	'ACP_SIGNATURE_SETTINGS'	=> 'Configuración de firma',
@@ -327,6 +328,10 @@ $lang = array_merge($lang, array(
 	'USERNAMES_EXPLAIN'		=> 'Inserte cada nombre de usuario en una línea diferente',
 	'USER_CONTROL_PANEL'	=> 'Panel de Control del Usuario',
 
+	'UPDATE_NEEDED'			=> 'El foro no está actualizado.',
+	'UPDATE_NOT_NEEDED'		=> 'El foro está actualizado.',
+	'UPDATES_AVAILABLE'		=> 'Actualizaciones disponibles:',
+
 	'WARNING'				=> 'Advertencia',
 ));
 
@@ -474,16 +479,18 @@ $lang = array_merge($lang, array(
 	'USER_IS_INACTIVE'		=> 'Usuario inactivo',
 ));
 
-// Send statistics page
+// Help support phpBB page
 $lang = array_merge($lang, array(
 	'EXPLAIN_SEND_STATISTICS'	=> 'Por favor envíe información sobre su servidor y configuraciones del foro a phpBB para análisis estadísticos. Toda información que pueda identificarle o a su web ha sido eliminada - los datos son completamente <strong>anónimos</strong>. Basamos las decisiones sobre futuras versiones de phpBB en esta información. Las estadísticas se ofrecen públicamente. También compartimos estos datos con el proyecto PHP, el lenguaje de programación con el que está hecho phpBB.',
 	'EXPLAIN_SHOW_STATISTICS'	=> 'Usando el botón de abajo puede tener una vista previa de todas las variables que serán transmitidas.',
 	'DONT_SEND_STATISTICS'		=> 'Vuelva al PCA si no desea enviar información estadística a phpBB.',
 	'GO_ACP_MAIN'				=> 'Ir a la página inicial del PCA',
 	'HIDE_STATISTICS'			=> 'Ocultar detalles',
-	'SEND_STATISTICS'			=> 'Enviar información estadística',
+	'SEND_STATISTICS'			=> 'Enviar estadísticas',
+	'SEND_STATISTICS_LONG'		=> 'Enviar información estadística',
 	'SHOW_STATISTICS'			=> 'Mostrar detalles',
 	'THANKS_SEND_STATISTICS'	=> 'Gracias por enviar su información.',
+	'FAIL_SEND_STATISTICS'		=> 'phpBB no pudo enviar estadísticas',
 ));
 
 // Log Entries
@@ -704,7 +711,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_PRUNE'					=> '<strong>Purgados: foros</strong><br />» %s',
 	'LOG_AUTO_PRUNE'			=> '<strong>Auto-purgados: foros</strong><br />» %s',
-    'LOG_PRUNE_SHADOW'		=> '<strong>Auto-purgados: temas sombreados</strong><br />» %s',
+    	'LOG_PRUNE_SHADOW'		=> '<strong>Auto-purgados: temas sombreados</strong><br />» %s',
 	'LOG_PRUNE_USER_DEAC'		=> '<strong>Desactivados: usuarios</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>Usuarios purgados y mensajes borrados</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>Usuarios purgados y mensajes retenidos</strong><br />» %s',
@@ -816,4 +823,5 @@ $lang = array_merge($lang, array(
 	'LOG_EXT_ENABLE'	=> '<strong>Extensión habilitada</strong><br />» %s',
 	'LOG_EXT_DISABLE'	=> '<strong>Extensión deshabilitada</strong><br />» %s',
 	'LOG_EXT_PURGE'		=> '<strong>Datos de Extensión borrados</strong><br />» %s',
+	'LOG_EXT_UPDATE'	=> '<strong>Extensión actualizada</strong><br />» %s',
 ));
