@@ -71,8 +71,7 @@ $lang = array_merge($lang, array(
 	<ul>
 		<li>MySQL 3.23 ó superior (MySQLi también)</li>
 		<li>PostgreSQL 8.3+</li>
-		<li>SQLite 2.8.2+</li>
-        <li>SQLite 3.6.15+</li>
+        	<li>SQLite 3.6.15+</li>
 		<li>MS SQL Server 2000 ó superior (directamente o vía ODBC)</li>
 		<li>MS SQL Server 2005 ó superior (nativo)</li>
 		<li>Oracle</li>
@@ -111,6 +110,8 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'phpBB no se ejecutará si la instalación de PHP no está compilado con soporte UTF-8 en la extensión PCRE.',
 	'PHP_JSON_SUPPORT'					=> 'Soporte PHP JSON',
 	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'Para que phpBB funcione correctamente, la extensión PHP JSON debe estar disponible.',
+	'PHP_XML_SUPPORT'					=> 'Soporte PHP XML/DOM',
+	'PHP_XML_SUPPORT_EXPLAIN'			=> 'Para que phpBB funcione correctamente, la extensión PHP XML/DOM debe estar disponible.',
 	'PHP_SUPPORTED_DB'					=> 'Bases de datos soportadas',
 	'PHP_SUPPORTED_DB_EXPLAIN'			=> 'Debe tener soporte de al menos una base de datos compatible con PHP. Si se muestran los módulos de base de datos como no disponibles, deberá comunicarse con su proveedor de hosting, o revise la documentación de instalación de PHP relevante.',
 
@@ -176,18 +177,17 @@ $lang = array_merge($lang, array(
 	'DB_PASSWORD'			=> 'Contraseña de la base de datos',
 	'DB_NAME'				=> 'Nombre de la base de datos',
 	'DB_USERNAME'			=> 'Usuario de la base de datos',
+	'DATABASE_VERSION'		=> 'Versión de la base de datos',
 	'TABLE_PREFIX'			=> 'Prefijo para tablas en la base de datos',
 	'TABLE_PREFIX_EXPLAIN'	=> 'El prefijo debe comenzar con una letra y sólo debe contener letras, números y subrayados.',
 
 	// Database options
-	'DB_OPTION_MSSQL'		=> 'MSSQL Server 2000+',
 	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ vía ODBC',
 	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Nativo ]',
 	'DB_OPTION_MYSQL'		=> 'MySQL',
 	'DB_OPTION_MYSQLI'		=> 'MySQL con Extensiones MySQLi',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
-	'DB_OPTION_SQLITE'		=> 'SQLite 2',
 	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
 
 	// Errors
@@ -200,7 +200,6 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_ERROR'			=> 'No se proporcionó mensaje de error.',
 	'INST_ERR_PREFIX'				=> 'Ya existen tablas con el prefijo especificado, por favor elija uno diferente.',
 	'INST_ERR_DB_NO_MYSQLI'			=> 'La versión de MySQL instalada en esta máquina es incompatible con la opción “MySQL con extensiones MySQLi” que seleccionó. Por favor pruebe la opción “MySQL” en su lugar.',
-	'INST_ERR_DB_NO_SQLITE'			=> 'La versión de la extensión SQLite que tiene instalada es muy antigua, hay que actualizarla al menos a la 2.8.2.',
 	'INST_ERR_DB_NO_SQLITE3'		=> 'La versión de la extensión SQLite que tiene instalada es muy antigua, hay que actualizarla al menos a la 3.6.15.',
 	'INST_ERR_DB_NO_ORACLE'			=> 'La versión de Oracle instalada en esta máquina requiere que configure el parámetro <var>NLS_CHARACTERSET</var> a <var>UTF8</var>. O bien actualice su instalación a 9.2+ o cambie el parámetro.',
 	'INST_ERR_DB_NO_POSTGRES'		=> 'La base de datos que seleccionó no fue creada en <var>UNICODE</var> o <var>UTF8</var>. Pruebe a reinstalar con una base de datos <var>UNICODE</var> o <var>UTF8</var>.',
@@ -210,6 +209,14 @@ $lang = array_merge($lang, array(
 	// Email data
 	//
 	'EMAIL_CONFIG'	=> 'Configuración de correo electrónico',
+
+	// Package info
+	'PACKAGE_VERSION'					=> 'Versión del paquete instalada',
+	'UPDATE_INCOMPLETE'				=> 'Su instalación de phpBB no ha sido actualizada correctamente.',
+	'UPDATE_INCOMPLETE_MORE'		=> 'Por favor, a continuación lea la información para solucionar este error.',
+	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Actualización incompleta</h1>
+
+		<p>Nos dimos cuenta de que la última actualización de su instalación de phpBB no se ha completado. Visite el <a href="%1$s" title="%1$s">actualizador de base de datos</a>, asegurese de que <em>actualizar sólo la base de datos</em> está seleccionado y haga clic en <strong>Enviar</strong>. No olvide eliminar el directorio "install" después de haber actualizado la base de datos correctamente.</p>',
 
 	//
 	// Server data
@@ -292,6 +299,7 @@ $lang = array_merge($lang, array(
 	'TASK_ADD_MODULES'		=> 'Instalando módulos',
 
 	// Install finish tasks
+	'TASK_INSTALL_EXTENSIONS'	=> 'Instalación de extensiones empaquetadas',
 	'TASK_NOTIFY_USER'			=> 'Enviando notificación al correo electrónico',
 	'TASK_POPULATE_MIGRATIONS'	=> 'Rellenando migraciones',
 
@@ -430,6 +438,7 @@ $lang = array_merge($lang, array(
 	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'Los siguientes archivos no han sido modificados y coinciden con los archivos originales de phpBB para la versión a la cual quiere actualizar.',
 	'FILES_UP_TO_DATE'				=> 'Archivos actualizados',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> 'Los siguientes archivos ya han sido actualizados.',
+	'FILES_VERSION'					=> 'Versión de los archivos',
 	'TOGGLE_DISPLAY'				=> 'Ver/Ocultar lista de archivos',
 
 	// File updater
@@ -447,6 +456,8 @@ $lang = array_merge($lang, array(
 	'STAGE_UPDATE_DATABASE'		=> 'Actualizar base de datos',
 
 	'INLINE_UPDATE_SUCCESSFUL'		=> 'La actualización de base de datos se ha realizado correctamente.',
+
+	'TASK_UPDATE_EXTENSIONS'	=> 'Actualización de extensiones',
 ));
 
 // Converter
@@ -525,7 +536,7 @@ $lang = array_merge($lang, array(
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'Conversión completada',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'Ha convertido su sitio a phpBB 3.2 correctamente. Ahora puede identificarse y <a href="../">acceder a su sitio</a>. Recuerde que hay ayuda disponible en línea para usar phpBB3 vía <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">Documentación</a>, y los <a href="https://www.phpbb.com/community/viewforum.php?f=466">foros de soporte</a> (ambos en inglés).',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Ha convertido su sitio a phpBB 3.2 correctamente. Ahora puede identificarse y <a href="../">acceder a su sitio</a>. Recuerde que hay ayuda disponible en línea para usar phpBB3 vía <a href="https://www.phpbb.com/support/docs/en/3.2/ug/">Documentación</a>, y los <a href="https://www.phpbb.com/community/viewforum.php?f=466">foros de soporte</a> (ambos en inglés).',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'El FTP para subir adjuntos está habilitado en el viejo sitio. Por favor, deshabilite esta opción de FTP y asegúrese de especificar una capeta válida para subir, luego copie todos los adjuntos a esta nueva carpeta. Una vez hecho esto, reinicie el conversor.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'No hay información de conversión disponible para la misma.',
