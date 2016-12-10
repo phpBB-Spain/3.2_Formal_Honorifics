@@ -12,4 +12,4 @@ ThE KuKa (Raúl Arroyo Monzo) - 3.1 to 3.2
 
 Huan Manwë (Juan Manuel) - phpBB 3.0.x to 3.0.9
 
-## © [phpBB España](http://www.phpbb-es.com) 2003 / 2015
+## © [phpBB España](http://www.phpbb-es.com) 2003 / 2017
