@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'El motor de búsqueda actualmente está limpiando su índice. Esto puede llevar algunos minutos.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'Texto completo solo puede usarse MySQL4 y superiores.',
-	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'Texto completo solo puede usarse con tablas MyISAM o tablas InnoDB. Se requiere MySQL 5.6.4 o posterior para índices de texto completo en tablas InnoDB.',
+	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'Texto completo solo puede usarse con tablas MyISAM o tablas InnoDB. Se requiere MySQL 5.6.8 o posterior para índices de texto completo en tablas InnoDB.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Número total de mensajes indexados',
 	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'Palabras con al menos esta cantidad de caracteres serán indexadas para futuras búsquedas. Usted o su hospedaje solo podrán cambiar esta configuración al cambiar la configuración de MySQL.',
 	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Palabras con no más de esta cantidad de caracteres serán indexadas para futuras búsquedas. Usted o su hospedaje solo podrán cambiar esta configuración al cambiar la configuración de MySQL.',
