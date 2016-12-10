@@ -17,6 +17,6 @@ ThE KuKa (Raúl Arroyo Monzo)
 Huan Manwë (Juan Manuel)
 
 
-## © [phpBB España](http://www.phpbb-es.com) 2003 / 2015
+## © [phpBB España](http://www.phpbb-es.com) 2003 / 2017
 
 ![phpBB Spain](http://www.phpbb-es.com/images/logo_es.png) 
