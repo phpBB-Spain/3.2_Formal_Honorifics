@@ -3,7 +3,7 @@ Subject: Notificación de mensaje en el foro - "{FORUM_NAME}"
 Hola {USERNAME},
 
 Está recibiendo esta notificación porque está siguiendo el foro "{FORUM_NAME}" en "{SITENAME}".
-Este foro tiene una nueva respuesta al tema "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME !== '' --> por {AUTHOR_NAME}<!-- ENDIF --> desde su última visita.
+Este foro tiene una nueva respuesta al tema "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME != '' --> por {AUTHOR_NAME}<!-- ENDIF --> desde su última visita.
 Siguiendo este enlace puede ver esa respuesta, no se enviarán más notificaciones hasta que visite ese enlace.
 
 {U_NEWEST_POST}
