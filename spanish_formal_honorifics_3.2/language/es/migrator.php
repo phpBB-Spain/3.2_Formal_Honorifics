@@ -51,6 +51,7 @@ $lang = array_merge($lang, array(
 	'MIGRATION_NOT_INSTALLED'			=> 'La migración "%s" no está instalada.',
 	'MIGRATION_NOT_VALID'            => '%s no es una migración válida.',
 	'MIGRATION_SCHEMA_DONE'				=> 'Esquema instalado: %1$s; Tiempo: %2$.2f segundos',
+	'MIGRATION_SCHEMA_IN_PROGRESS'		=> 'Instalando esquema: %1$s; Tiempo: %2$.2f segundos',
 	'MIGRATION_SCHEMA_RUNNING'         => 'Instalando esquema: %s.',
 
 	'MIGRATION_REVERT_DATA_DONE'		=> 'Datos revertidos: %1$s; Tiempo: %2$.2f segundos',
@@ -67,9 +68,12 @@ $lang = array_merge($lang, array(
 	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'La migración no es válida. Se ha encontrado un método de herramienta de migración definido.',
 
 	'MODULE_ERROR'						=> 'Se ha producido un error al crear un módulo: %s',
+	'MODULE_EXISTS'						=> 'Ya existe un módulo: %s',
+	'MODULE_EXIST_MULTIPLE'				=> 'Ya existen varios módulos con el nombre de módulo primario dado: %s. Intente usar las teclas antes/después para aclarar la colocación del módulo.',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Un archivo de información del módulo necesario, no ha sido encontrado: %2$s',
 	'MODULE_NOT_EXIST'					=> 'Un módulo requerido no existe: %s',
 
+	'PARENT_MODULE_FIND_ERROR'			=> 'No se puede determinar el identificador del módulo primario: %s',
 	'PERMISSION_NOT_EXIST'				=> 'El ajuste de permiso "%s" inesperadamente, no existe.',
 
 	'ROLE_NOT_EXIST'					=> 'El rol de permiso "%s" inesperadamente, no existe.',
