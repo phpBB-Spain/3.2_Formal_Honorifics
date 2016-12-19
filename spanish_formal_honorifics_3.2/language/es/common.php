@@ -361,7 +361,7 @@ $lang = array_merge($lang, array(
 	'LDAP_NO_SERVER_CONNECTION'	=> 'No se puede conectar al servidor LDAP',
 	'LDAP_SEARCH_FAILED'            => 'Ocurrió un error mientras se buscaba en el directorio LDAP.',
 	'LEGEND'	=> 'Referencia',
-    'LIVE_SEARCHES_NOT_ALLOWED'			=> 'Las búsquedas en directo no están permitidas.',
+    	'LIVE_SEARCHES_NOT_ALLOWED'			=> 'Las búsquedas en directo no están permitidas.',
 	'LOADING'							=> 'Cargando',
 	'LOCATION'	=> 'Ubicación',
 	'LOCK_POST'	=> 'Mensaje cerrado',
@@ -439,13 +439,13 @@ $lang = array_merge($lang, array(
 	// This applies for NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	// %1$s will return a list of users that's concatenated using "," and "and" - see STRING_LIST
 	// Once the user count reaches 5 users or more, the list is trimmed using NOTIFICATION_X_OTHERS
-    // Once the user count reaches 20 users or more, the list is trimmed using NOTIFICATION_MANY_OTHERS
+    	// Once the user count reaches 20 users or more, the list is trimmed using NOTIFICATION_MANY_OTHERS
 	// Examples:
 	// A replied...
 	// A and B replied...
 	// A, B and C replied...
 	// A, B, C and 2 others replied...
-    // A, B, C and others replied...
+    	// A, B, C and others replied...
 	'NOTIFICATION_BOOKMARK'				=> array(
 		1	=> '<strong>Respuesta</strong> de %1$s en tema favorito:',
 	),
@@ -578,8 +578,8 @@ $lang = array_merge($lang, array(
 	'POST_DAY'				=> '%.2f mensajes por día',
     	'POST_DELETED_ACTION'	=> 'Mensaje borrado:',
     	'POST_DELETED'			=> 'Este mensaje ha sido borrado.',
-	'POST_DELETED_BY'		=> '<strong>%2$s</strong> mensaje borrado por <strong>%1$s</strong> en %3$s.',
-	'POST_DELETED_BY_REASON'=> '<strong>%2$s</strong> mensaje borrado por <strong>%1$s</strong> en %3$s por la siguiente razón: %4$s',	
+	'POST_DELETED_BY'		=> '<strong>%2$s</strong> borró mensaje de <strong>%1$s</strong> el %3$s.',
+	'POST_DELETED_BY_REASON'=> '<strong>%2$s</strong> borró mensaje de <strong>%1$s</strong> el %3$s por la siguiente razón: %4$s',		
 	'POST_DETAILS'			=> 'Detalles del mensaje',
 	'POST_NEW_TOPIC'		=> 'Nuevo tema',
 	'POST_PCT'				=> '%.2f%% de todos los mensajes',
