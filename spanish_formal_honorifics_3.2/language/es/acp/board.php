@@ -350,6 +350,8 @@ $lang = array_merge($lang, array(
 
 	'COOKIE_DOMAIN'			=> 'Dominio de la cookie',
 	'COOKIE_NAME'			=> 'Nombre de la cookie',
+	'COOKIE_NOTICE'			=> 'Aviso de Cookie',
+	'COOKIE_NOTICE_EXPLAIN'		=> 'Si está habilitado, se mostrará un aviso de cookie a los usuarios cuando visiten su foro. Esto podría ser requerido por ley, y dependiendo del contenido de su foro y de las extensiones habilitadas.',
 	'COOKIE_PATH'			=> 'Ruta de la cookie',
 	'COOKIE_SECURE'			=> 'Cookie segura',
 	'COOKIE_SECURE_EXPLAIN'		=> 'Si su servidor emplea SSL, habilite esta opción, si no, déjelo deshabilitado. Habilitar esto sin usar SSL provocará errores en el servidor.',
