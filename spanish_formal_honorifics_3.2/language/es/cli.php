@@ -67,6 +67,7 @@ $lang = array_merge($lang, array(
 
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Purga la extensión especificada.',
 	'CLI_DESCRIPTION_REPARSER_LIST'				=> 'Enumera los tipos de texto que se puede reanálisis (reparsed).',
+	'CLI_DESCRIPTION_REPARSER_AVAILABLE'				=> 'Reanálisis disponibles:',
 	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Los Reparses almacenan texto con los servicios text_formatter actuales.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'		=> 'Tipo de texto del reanálisis. Dejar en blanco para reanálisis de todo.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'No guardar los cambios; simplemente imprimir lo que sucedería',
