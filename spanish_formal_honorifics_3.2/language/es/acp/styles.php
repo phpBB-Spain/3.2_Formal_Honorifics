@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'DELETE_FROM_FS'			=> 'Borrar del sistema',
 	'DELETE_STYLE_FILES_FAILED'	=> 'Error borrando archivos del estilo "%s".',
 	'DELETE_STYLE_FILES_SUCCESS'	=> 'Archivos del estilo "%s" han sido borrados.',
-    'DETAILS'					=> 'Detalles',
+    	'DETAILS'					=> 'Detalles',
 
 	'INHERITING_FROM'			=> 'Hereda de',
 	'INSTALL_STYLE'				=> 'Instalar estilo',
@@ -82,6 +82,7 @@ $lang = array_merge($lang, array(
 	'STYLE_UNINSTALL_DEPENDENT'	=> 'Estilo "%s" no puede ser desinstalado porque tiene uno o más estilos hijos.',
 	'STYLE_UNINSTALLED'			=> 'Estilo "%s" desinstalado correctamente.',
 	'STYLE_USED_BY'				=> 'Usado por (incluyendo robots)',
+	'STYLE_VERSION'				=> 'Versión del estilo',
 
 	'UNINSTALL_DEFAULT'		=> 'No puede desinstalar el estilo por defecto.',
 	'BROWSE_STYLES_DATABASE'	=> 'Navegar por la base de datos de estilos',
