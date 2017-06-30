@@ -242,9 +242,9 @@ $lang = array_merge($lang, array(
 	'SMILIES'					=> 'Emoticonos',
 	'SMILIES_ARE_OFF'			=> 'Emoticonos están <em>deshabilitados</em>',
 	'SMILIES_ARE_ON'			=> 'Emoticonos están <em>habilitados</em>',
-	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Fecha límite para Nota/Anuncio',
+	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Fecha límite para Nota/Anuncio/Global',
 	'STICK_TOPIC_FOR'			=> 'Fijar tema para',
-	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Introduzca 0 ó deje en blanco para un Nota/Anuncio sin límite de tiempo. Por favor tenga en cuenta que este número está relacionado con la fecha de publicación del mensaje.',
+	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Introduzca 0 ó deje en blanco para un Nota/Anuncio/Global sin límite de tiempo. Por favor tenga en cuenta que este número está relacionado con la fecha de publicación del mensaje.',
 	'STYLES_TIP'				=> 'Consejo: Pueden aplicarse estilos rápidamente al texto seleccionado.',
 
 	'TOO_FEW_CHARS'				=> 'Su mensaje contiene muy pocos caracteres.',
