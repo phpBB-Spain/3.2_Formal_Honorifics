@@ -181,6 +181,7 @@ $lang = array_merge($lang, array(
 	'COOKIE_CONSENT_INFO'	=> 'Saber más',
 	'COOKIE_CONSENT_MSG'	=> 'Este sitio web utiliza cookies para asegurar que obtenga la mejor experiencia en nuestro sitio web.',
 	'COOKIE_CONSENT_OK'		=> '¡Lo entiendo!',
+	'COOKIE_CONSENT_HREF'	=> 'http://politicadecookies.com/',
 	'COOKIES_DELETED'		=> 'Todas las cookies del Sitio han sido borradas correctamente.',
 	'CURRENT_TIME'			=> 'Fecha actual %s',
 
@@ -255,7 +256,7 @@ $lang = array_merge($lang, array(
 	'FORUM_INDEX'	=> 'Índice general',
 	'FORUM_LINK'	=> 'Enlace al Foro',
 	'FORUM_LOCATION'	=> 'Localización del foro',
-	'FORUM_LOCKED'	=> 'Foro cerrado',
+	'FORUM_LOCKED'	=> 'Cerrado',
 	'FORUM_RULES'	=> 'Reglas del Foro',
 	'FORUM_RULES_LINK'	=> 'Por favor, haga clic para ver las reglas del Foro',
 	'FROM'	=> 'de',
