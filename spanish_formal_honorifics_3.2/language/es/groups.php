@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'GROUP_DESC'				=> 'Descripción del grupo',
 	'GROUP_HIDDEN'				=> 'Oculto',
 	'GROUP_INFORMATION'			=> 'Información del grupo',
-	'GROUP_IS_CLOSED'			=> 'Éste es un grupo cerrado, donde no pueden unirse automáticamente nuevos usuarios, solo por invitación de un líder del grupo.',
+	'GROUP_IS_CLOSED'			=> 'Éste es un grupo cerrado, donde no pueden unirse automáticamente nuevos usuarios, solo por invitación de un responsable del grupo.',
 	'GROUP_IS_FREE'				=> 'Éste es un grupo libre abierto, todos los nuevos usuarios son bienvenidos.',
 	'GROUP_IS_HIDDEN'			=> 'Éste es un grupo oculto, solo usuarios de este grupo pueden ver su pertenencia.',
 	'GROUP_IS_OPEN'				=> 'Éste es un grupo abierto, usuarios nuevos pueden unirse mediante una solicitud.',
@@ -64,7 +64,7 @@ $lang = array_merge($lang, array(
 	'GROUP_JOIN_PENDING'		=> 'Ingreso en el grupo solicitado',
 	'GROUP_JOIN_PENDING_CONFIRM'	=> '¿Está seguro de que quiere solicitar unirse al grupo seleccionado?',
 	'GROUP_JOINED'				=> 'Ha ingresado correctamente al grupo elegido',
-	'GROUP_JOINED_PENDING'		=> 'Se ha solicitado correctamente su pertenencia al grupo. Por favor, aguarde a que un líder del grupo apruebe su membresía.',
+	'GROUP_JOINED_PENDING'		=> 'Se ha solicitado correctamente su pertenencia al grupo. Por favor, aguarde a que un responsable del grupo apruebe su membresía.',
 	'GROUP_LIST'				=> 'Administrar usuarios',
 	'GROUP_MEMBERS'				=> 'Usuarios del grupo',
 	'GROUP_NAME'				=> 'Nombre del grupo',
@@ -82,8 +82,8 @@ $lang = array_merge($lang, array(
 
 	'LOGIN_EXPLAIN_GROUP'			=> 'Necesita identificarse para ver los detalles del grupo',
 
-	'NO_LEADERS'					=> 'No es líder de ningún grupo',
-	'NOT_LEADER_OF_GROUP'			=> 'La operación requerida no puede llevarse a cabo porque no es líder del grupo seleccionado.',
+	'NO_LEADERS'					=> 'No es responsable de ningún grupo',
+	'NOT_LEADER_OF_GROUP'			=> 'La operación requerida no puede llevarse a cabo porque no es responsable del grupo seleccionado.',
 	'NOT_MEMBER_OF_GROUP'			=> 'La operación requerida no puede llevarse a cabo porque no es miembro del grupo seleccionado.',
 	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'No puede renunciar a su grupo por defecto.',
 
@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 	'REMOVE_SELECTED'				=> 'Eliminar selección',
 
 	'USER_GROUP_CHANGE'				=> 'Desde grupo "%1$s" hasta "%2$s"',
-	'USER_GROUP_DEMOTE'				=> 'Deponer liderazgo',
-	'USER_GROUP_DEMOTE_CONFIRM'		=> '¿Está seguro de que quiere deponer su liderazgo del grupo seleccionado?',
-	'USER_GROUP_DEMOTED'			=> 'Liderazgo depuesto correctamente.',
+	'USER_GROUP_DEMOTE'				=> 'Deponer responsabilidad',
+	'USER_GROUP_DEMOTE_CONFIRM'		=> '¿Está seguro de que quiere deponer su responsabilidad del grupo seleccionado?',
+	'USER_GROUP_DEMOTED'			=> 'Responsabilidad depuesta correctamente.',
 ));
