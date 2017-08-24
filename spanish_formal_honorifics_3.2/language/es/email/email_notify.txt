@@ -1,8 +1,8 @@
-Subject: "{SITENAME}" - Email a un amigo
+Subject: “{SITENAME}” - Email a un amigo
 
 Hola {TO_USERNAME},
 
-Este email fue enviado desde "{SITENAME}" por {FROM_USERNAME} que pensó podría estar interesado en el siguiente tema:
+Este email fue enviado desde “{SITENAME}” por {FROM_USERNAME} que pensó podría estar interesado en el siguiente tema:
 
 {TOPIC_NAME}
 

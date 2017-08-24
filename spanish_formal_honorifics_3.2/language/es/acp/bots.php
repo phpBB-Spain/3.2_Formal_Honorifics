@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'BOT_DEACTIVATE'	=> 'Desactivar',
 	'BOT_DELETED'		=> 'Robot borrado correctamente.',
 	'BOT_EDIT'			=> 'Editar robots',
-	'BOT_EDIT_EXPLAIN'	=> 'Aquí puede añadir o editar un robot existente. Puede definir un nombre y/o una o más direcciones de IP (o rango de direcciones) que coincidan. Hágalo con cuidado. También puede especificar un estilo y un idioma con los cuales el robot "verá" el sitio. Puede ayudarle a reducir ancho de banda establecer un estilo simple para robots. Recuerde establecer los permisos apropiados para el grupo Robots.',
+	'BOT_EDIT_EXPLAIN'	=> 'Aquí puede añadir o editar un robot existente. Puede definir un nombre y/o una o más direcciones de IP (o rango de direcciones) que coincidan. Hágalo con cuidado. También puede especificar un estilo y un idioma con los cuales el robot “verá” el sitio. Puede ayudarle a reducir ancho de banda establecer un estilo simple para robots. Recuerde establecer los permisos apropiados para el grupo Robots.',
 	'BOT_LANG'			=> 'Idioma para el robot',
 	'BOT_LANG_EXPLAIN'	=> 'Idioma presentado al robot mientras navega.',
 	'BOT_LAST_VISIT'	=> 'Última visita',
@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 	'BOT_NAME_TAKEN'	=> 'El nombre ya está en uso en el foro y no puede ser usado para el Robot.',
 	'BOT_NEVER'			=> 'Nunca',
 	'BOT_STYLE'			=> 'Estilo para el robot',
-	'BOT_STYLE_EXPLAIN'	=> 'El estilo en que el robot "verá" el sitio.',
+	'BOT_STYLE_EXPLAIN'	=> 'El estilo en que el robot “verá” el sitio.',
 	'BOT_UPDATED'		=> 'Robot actualizado correctamente.',
 
 	'ERR_BOT_AGENT_MATCHES_UA'  => 'La palabra coincidente que proporcionó es similar a una que ya está usando. Por favor, cámbiela.',

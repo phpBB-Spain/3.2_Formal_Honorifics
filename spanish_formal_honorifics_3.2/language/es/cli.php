@@ -94,7 +94,7 @@ $lang = array_merge($lang, array(
 
 	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Actualiza los hashes de contraseñas caducadas para ser hash con bcrypt.',
 
-	'CLI_ERROR_INVALID_STABILITY' => '"%s" debe establecerse en "estable" o "inestable".',
+	'CLI_ERROR_INVALID_STABILITY' => '“%s” debe establecerse en “estable” o “inestable”.',
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Activar (o desactivar) una cuenta de usuario.',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Nombre de usuario de la cuenta para activar.',

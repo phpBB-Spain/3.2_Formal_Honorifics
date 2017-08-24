@@ -1,7 +1,7 @@
-Subject: Aviso borrado - "{POST_SUBJECT}"
+Subject: Aviso borrado - “{POST_SUBJECT}”
 
 Hola {USERNAME},
 
-Está recibiendo esta notificación porque el aviso que envió por el mensaje "{POST_SUBJECT}" en "{TOPIC_TITLE}" de "{SITENAME}" fue borrado por un(a) Moderador(a) o por La Administración.
+Está recibiendo esta notificación porque el aviso que envió por el mensaje “{POST_SUBJECT}” en “{TOPIC_TITLE}” de “{SITENAME}” fue borrado por un(a) Moderador(a) o por La Administración.
 
 {EMAIL_SIG}

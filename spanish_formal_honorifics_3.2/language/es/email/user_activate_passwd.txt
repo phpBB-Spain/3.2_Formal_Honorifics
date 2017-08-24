@@ -2,7 +2,7 @@ Subject: Activación de nueva clave
 
 Hola {USERNAME}
 
-Está recibiendo esta notificación porque usted (o alguien reemplazándole) solicitó una nueva clave para su cuenta en "{SITENAME}".
+Está recibiendo esta notificación porque usted (o alguien reemplazándole) solicitó una nueva clave para su cuenta en “{SITENAME}”.
 Si usted no lo solicitó por favor ignore esta notificación.
 Si persiste la solicitud contacte con La Administración del Sitio.
 

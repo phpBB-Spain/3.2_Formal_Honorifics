@@ -1,8 +1,8 @@
-Subject: Aviso cerrado - "{POST_SUBJECT}"
+Subject: Aviso cerrado - “{POST_SUBJECT}”
 
 Hola {USERNAME},
 
-Está recibiendo esta notificación porque el aviso que envió sobre el mensaje "{POST_SUBJECT}" en "{TOPIC_TITLE}" de "{SITENAME}" fue revisado por un(a) Moderador(a) o por La Administración.
+Está recibiendo esta notificación porque el aviso que envió sobre el mensaje “{POST_SUBJECT}” en “{TOPIC_TITLE}” de “{SITENAME}” fue revisado por un(a) Moderador(a) o por La Administración.
 El aviso fue posteriormente cerrado. Si tiene alguna duda contacte con {CLOSER_NAME} mediante un mensaje personal.
 
 {EMAIL_SIG}

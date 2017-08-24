@@ -127,7 +127,7 @@ $lang = array_merge($lang, array(
 	'NO_GROUPS_ADDED'			=> 'No se han añadidos grupos aún.',
 	'NO_GROUPS_CREATED'			=> 'No se han creado grupos aún.',
 	'NO_PERMISSIONS'			=> 'No copiar permisos',
-	'NO_USERS'					=> 'No introdujo ningún usuario.',
+	'NO_USERS'					=> 'No introdujo ningún usuario.',
 	'NO_USERS_ADDED'			=> 'No se introdujeron usuarios al grupo.',
 	'NO_VALID_USERS'			=> 'No ha introducido ningún usuario eligible para esa acción.',
 
@@ -135,7 +135,7 @@ $lang = array_merge($lang, array(
 
 	'SELECT_GROUP'				=> 'Seleccionar un grupo',
 	'SPECIAL_GROUPS'			=> 'Grupos predefinidos',
-	'SPECIAL_GROUPS_EXPLAIN'	=> 'Grupos predefinidos son grupos especiales, no pueden ser borrados o modificados directamente. Sin embargo puede agregar usuarios y cambiar parámetros básicos. Haciendo clic en "Por Defecto" puede definirlo como grupo principal para todos sus usuarios.',
+	'SPECIAL_GROUPS_EXPLAIN'	=> 'Grupos predefinidos son grupos especiales, no pueden ser borrados o modificados directamente. Sin embargo puede agregar usuarios y cambiar parámetros básicos. Haciendo clic en “Por Defecto” puede definirlo como grupo principal para todos sus usuarios.',
 
 	'TEAMPAGE'					=> 'Página del Equipo',
 	'TEAMPAGE_DISP_ALL'			=> 'Todos los usuarios',
@@ -152,7 +152,7 @@ $lang = array_merge($lang, array(
 	'USERS_APPROVED'				=> 'Usuarios aprobados correctamente.',
 	'USER_DEFAULT'					=> 'Por Defecto',
 	'USER_DEF_GROUPS'				=> 'Grupos definidos por el usuario',
-	'USER_DEF_GROUPS_EXPLAIN'		=> 'Estos son grupos creados por usted u otro administrador de este Sitio. Puede administrar pertenencias como también editar propiedades del grupo e inclusive borrarlo. Haciendo clic en "Por Defecto" puede definirlo como grupo principal para todos sus usuarios.',
+	'USER_DEF_GROUPS_EXPLAIN'		=> 'Estos son grupos creados por usted u otro administrador de este Sitio. Puede administrar pertenencias como también editar propiedades del grupo e inclusive borrarlo. Haciendo clic en “Por Defecto” puede definirlo como grupo principal para todos sus usuarios.',
 	'USER_GROUP_DEFAULT'			=> 'Definir como grupo por defecto',
 	'USER_GROUP_DEFAULT_EXPLAIN'	=> 'Esto lo designará como grupo por defecto para los usuarios añadidos',
 	'USER_GROUP_LEADER'				=> 'Designar responsable del grupo',

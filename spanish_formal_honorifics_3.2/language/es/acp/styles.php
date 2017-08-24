@@ -46,8 +46,8 @@ $lang = array_merge($lang, array(
 
 	'DEACTIVATE_DEFAULT'		=> 'No puede desactivar el estilo por defecto.',
 	'DELETE_FROM_FS'			=> 'Borrar del sistema',
-	'DELETE_STYLE_FILES_FAILED'	=> 'Error borrando archivos del estilo "%s".',
-	'DELETE_STYLE_FILES_SUCCESS'	=> 'Archivos del estilo "%s" han sido borrados.',
+	'DELETE_STYLE_FILES_FAILED'	=> 'Error borrando archivos del estilo “%s”.',
+	'DELETE_STYLE_FILES_SUCCESS'	=> 'Archivos del estilo “%s” han sido borrados.',
     	'DETAILS'					=> 'Detalles',
 
 	'INHERITING_FROM'			=> 'Hereda de',
@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 
 	'PURGED_CACHE'				=> 'Caché ha sido limpiado.',
 
-	'REQUIRES_STYLE'			=> 'Este estilo requiere que el estilo "%s" se encuentre instalado.',
+	'REQUIRES_STYLE'			=> 'Este estilo requiere que el estilo “%s” se encuentre instalado.',
 
 	'STYLE_ACTIVATE'			=> 'Activar',
 	'STYLE_ACTIVE'				=> 'Activo',
@@ -71,16 +71,16 @@ $lang = array_merge($lang, array(
 	'STYLE_ERR_INVALID_PARENT'	=> 'Estilo padre inválido.',
 	'STYLE_ERR_NAME_EXIST'		=> 'Ya existe un estilo con ese nombre.',
 	'STYLE_ERR_STYLE_NAME'		=> 'Tiene que proporcionar un nombre para este estilo.',
-	'STYLE_INSTALLED'			=> 'Estilo "%s" ha sido instalado.',
+	'STYLE_INSTALLED'			=> 'Estilo “%s” ha sido instalado.',
 	'STYLE_INSTALLED_RETURN_INSTALLED_STYLES'	=> 'Volver a la lista de estilos instalados',
  	'STYLE_INSTALLED_RETURN_UNINSTALLED_STYLES'	=> 'Instalas más estilos',
 	'STYLE_NAME'				=> 'Nombre del estilo',
-	'STYLE_NAME_RESERVED'		=> 'Estilo "%s" no se puede instalar, porque el nombre está reservado.',
-	'STYLE_NOT_INSTALLED'		=> 'Estilo "%s" no se instaló.',
+	'STYLE_NAME_RESERVED'		=> 'Estilo “%s” no se puede instalar, porque el nombre está reservado.',
+	'STYLE_NOT_INSTALLED'		=> 'Estilo “%s” no se instaló.',
 	'STYLE_PATH'				=> 'Ruta del estilo',
 	'STYLE_UNINSTALL'			=> 'Desinstalar',
-	'STYLE_UNINSTALL_DEPENDENT'	=> 'Estilo "%s" no puede ser desinstalado porque tiene uno o más estilos hijos.',
-	'STYLE_UNINSTALLED'			=> 'Estilo "%s" desinstalado correctamente.',
+	'STYLE_UNINSTALL_DEPENDENT'	=> 'Estilo “%s” no puede ser desinstalado porque tiene uno o más estilos hijos.',
+	'STYLE_UNINSTALLED'			=> 'Estilo “%s” desinstalado correctamente.',
 	'STYLE_USED_BY'				=> 'Usado por (incluyendo robots)',
 	'STYLE_VERSION'				=> 'Versión del estilo',
 

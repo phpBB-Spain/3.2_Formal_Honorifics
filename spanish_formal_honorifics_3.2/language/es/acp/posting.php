@@ -273,7 +273,7 @@ $lang = array_merge($lang, array(
 
 	'NO_REASON'					=> 'No se puede encontrar la razón.',
 	'NO_REASON_INFO'			=> 'Tiene que especificar un título y una descripción para esta razón.',
-	'NO_REMOVE_DEFAULT_REASON'	=> 'No puede eliminar la razon por defecto "Otro".',
+	'NO_REMOVE_DEFAULT_REASON'	=> 'No puede eliminar la razon por defecto “Otro”.',
 
 	'REASON_ADD'				=> 'Añadir razón',
 	'REASON_ADDED'				=> 'Razón añadida correctamente.',

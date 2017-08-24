@@ -1,4 +1,4 @@
-Subject: Reactivar su cuenta en "{SITENAME}"
+Subject: Reactivar su cuenta en “{SITENAME}”
 
 La Administración ha requerido que su cuenta sea reactivada. Su cuenta está actualmente inactiva.
 Por favor siga estos pasos para reactivar su cuenta.

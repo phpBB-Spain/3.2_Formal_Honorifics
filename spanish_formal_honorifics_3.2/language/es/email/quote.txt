@@ -1,8 +1,8 @@
-Subject: Notificación de respuesta al tema - "{TOPIC_TITLE}"
+Subject: Notificación de respuesta al tema - “{TOPIC_TITLE}”
 
 Hola {USERNAME},
 
-Usted está recibiendo esta notificación debido a que "{AUTHOR_NAME}" le ha citado en este tema "{TOPIC_TITLE}" de "{SITENAME}".  Usted puede utilizar el siguiente enlace para ver las respuestas dada.
+Usted está recibiendo esta notificación debido a que “{AUTHOR_NAME}” le ha citado en este tema “{TOPIC_TITLE}” de “{SITENAME}”.  Usted puede utilizar el siguiente enlace para ver las respuestas dada.
 
 Si quiere ver el nuevo mensaje donde se le cita, haga clic en el siguiente enlace:
 {U_VIEW_POST}

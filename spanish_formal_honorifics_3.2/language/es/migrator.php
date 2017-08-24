@@ -37,9 +37,9 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CONFIG_NOT_EXIST'					=> 'Inesperadamente, el ajuste de configuración "%s" no existe.',
+	'CONFIG_NOT_EXIST'					=> 'Inesperadamente, el ajuste de configuración “%s” no existe.',
 
-	'GROUP_NOT_EXIST'					=> 'Inesperadamente, el grupo "%s" no existe.',
+	'GROUP_NOT_EXIST'					=> 'Inesperadamente, el grupo “%s” no existe.',
 
 	'MIGRATION_APPLY_DEPENDENCIES'      => 'Aplicar dependencias de %s.',
 	'MIGRATION_DATA_DONE'				=> 'Datos instalados: %1$s; Tiempo: %2$.2f segundos',
@@ -47,8 +47,8 @@ $lang = array_merge($lang, array(
 	'MIGRATION_DATA_RUNNING'         => 'Instalando datos: %s.',
 	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Migración instalada correctamente (omitido): %s',
 	'MIGRATION_EXCEPTION_ERROR'			=> 'Algo salió mal en la solicitud y se produjo una excepción. Los cambios hechos antes de que ocurriera el error se invirtieron en la medida de nuestras capacidades, pero usted deberá comprobar los errores del foro.',
-	'MIGRATION_NOT_FULFILLABLE'			=> 'La migración "%1$s" no se ha realizado, falta la migración "%2$s".',
-	'MIGRATION_NOT_INSTALLED'			=> 'La migración "%s" no está instalada.',
+	'MIGRATION_NOT_FULFILLABLE'			=> 'La migración “%1$s” no se ha realizado, falta la migración “%2$s”.',
+	'MIGRATION_NOT_INSTALLED'			=> 'La migración “%s” no está instalada.',
 	'MIGRATION_NOT_VALID'            => '%s no es una migración válida.',
 	'MIGRATION_SCHEMA_DONE'				=> 'Esquema instalado: %1$s; Tiempo: %2$.2f segundos',
 	'MIGRATION_SCHEMA_IN_PROGRESS'		=> 'Instalando esquema: %1$s; Tiempo: %2$.2f segundos',
@@ -75,7 +75,7 @@ $lang = array_merge($lang, array(
 	'MODULE_NOT_EXIST'					=> 'Un módulo requerido no existe: %s',
 
 	'PARENT_MODULE_FIND_ERROR'			=> 'No se puede determinar el identificador del módulo primario: %s',
-	'PERMISSION_NOT_EXIST'				=> 'El ajuste de permiso "%s" inesperadamente, no existe.',
+	'PERMISSION_NOT_EXIST'				=> 'El ajuste de permiso “%s” inesperadamente, no existe.',
 
-	'ROLE_NOT_EXIST'					=> 'El rol de permiso "%s" inesperadamente, no existe.',
+	'ROLE_NOT_EXIST'					=> 'El rol de permiso “%s” inesperadamente, no existe.',
 ));

@@ -71,10 +71,10 @@ $lang = array_merge($lang, array(
 	'LOGIN_NOTIFY_TOPIC'	=> 'Ha sido notificado sobre este tema, por favor identifíquese para verlo.',
 	'LOGIN_VIEWTOPIC'		=> 'La Administración del Sitio requiere que esté registrado e identificado para ver este tema.',
 
-	'MAKE_ANNOUNCE'				=> 'Cambiar a "Anuncio"',
-	'MAKE_GLOBAL'				=> 'Cambiar a "Global"',
-	'MAKE_NORMAL'				=> 'Cambiar a "Tema"',
-	'MAKE_STICKY'				=> 'Cambiar a "Nota"',
+	'MAKE_ANNOUNCE'				=> 'Cambiar a “Anuncio”',
+	'MAKE_GLOBAL'				=> 'Cambiar a “Global”',
+	'MAKE_NORMAL'				=> 'Cambiar a “Tema”',
+	'MAKE_STICKY'				=> 'Cambiar a “Nota”',
 	'MAX_OPTIONS_SELECT'		=> array(
 		1	=> 'Puede seleccionar <strong>%d</strong> opción',
 		2	=> 'Puede seleccionar hasta <strong>%d</strong> opciones',
