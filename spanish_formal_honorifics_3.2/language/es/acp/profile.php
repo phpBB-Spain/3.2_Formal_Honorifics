@@ -133,7 +133,7 @@ $lang = array_merge($lang, array(
 	'NO_FIELD_ENTRIES'			=> 'No se definieron entradas',
 	'NO_FIELD_ID'				=> 'No se especificó ID del campo.',
 	'NO_FIELD_TYPE'				=> 'No se especificó tipo de campo.',
-	'NO_VALUE_OPTION'			=> 'Opción "campo vacío"',
+	'NO_VALUE_OPTION'			=> 'Opción “campo vacío”',
 	'NO_VALUE_OPTION_EXPLAIN'	=> 'Valor para una no-entrada. Si el campo es obligatorio, el usuario recibe un error si elige la opción seleccionada aquí',
 	'NUMBERS_ONLY'				=> 'Solo números (0-9)',
 

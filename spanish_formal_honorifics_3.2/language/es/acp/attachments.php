@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_ADD_IPS_EXPLAIN'			=> 'Para especificar varias IPs o hostnames diferentes, introduzca cada una en una nueva línea. Para especificar un rango de direcciones IP separe el inicio y el final con un guión (-), para especificar un comodín use *',
 	'DOWNLOAD_REMOVE_IPS_EXPLAIN'		=> 'Puede eliminar (o des-excluir) múltiples direcciones IP al mismo tiempo usando la combinación apropiada de ratón y teclado para su navegador (p.ej. Ctrl+Clic). Las IPs excluidas están en negrita.',
 	'DISPLAY_INLINED'					=> 'Mostrar imagenes',
-	'DISPLAY_INLINED_EXPLAIN'			=> 'Si elige "Sin imagen", los adjuntos se mostrarán como un enlace.',
+	'DISPLAY_INLINED_EXPLAIN'			=> 'Si elige “Sin imagen”, los adjuntos se mostrarán como un enlace.',
 	'DISPLAY_ORDER'						=> 'Mostrar adjuntos ordenados',
 	'DISPLAY_ORDER_EXPLAIN'				=> 'Muestra los adjuntos ordenados por fecha.',
 
@@ -165,8 +165,8 @@ $lang = array_merge($lang, array(
 	'SUCCESS_EXTENSION_GROUP_EDIT'		=> 'Grupo de extensiones actualizado con éxito',
 
 	'UPLOADING_FILES'					=> 'Subiendo archivos',
-	'UPLOADING_FILE_TO'					=> 'Subiendo archivo "%1$s" al mensaje número %2$d…',
-	'UPLOAD_DENIED_FORUM'				=> 'No tiene permisos para subir archivos al foro "%s"',
+	'UPLOADING_FILE_TO'					=> 'Subiendo archivo “%1$s” al mensaje número %2$d…',
+	'UPLOAD_DENIED_FORUM'				=> 'No tiene permisos para subir archivos al foro “%s”',
 	'UPLOAD_DIR'						=> 'Carpeta de subidas',
 	'UPLOAD_DIR_EXPLAIN'				=> 'Ruta donde se guardan los adjuntos.',
 	'UPLOAD_ICON'						=> 'Icono de subida',

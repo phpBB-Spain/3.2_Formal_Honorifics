@@ -69,11 +69,11 @@ $lang = array_merge($lang, array(
 
 	<p>phpBB3 soporta las siguientes bases de datos:</p>
 	<ul>
-		<li>MySQL 3.23 ó superior (MySQLi también)</li>
+		<li>MySQL 3.23 o superior (MySQLi también)</li>
 		<li>PostgreSQL 8.3+</li>
         	<li>SQLite 3.6.15+</li>
-		<li>MS SQL Server 2000 ó superior (directamente o vía ODBC)</li>
-		<li>MS SQL Server 2005 ó superior (nativo)</li>
+		<li>MS SQL Server 2000 o superior (directamente o vía ODBC)</li>
+		<li>MS SQL Server 2005 o superior (nativo)</li>
 		<li>Oracle</li>
 	</ul>
 
@@ -217,7 +217,7 @@ $lang = array_merge($lang, array(
 	'UPDATE_INCOMPLETE_MORE'		=> 'Por favor, a continuación lea la información para solucionar este error.',
 	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Actualización incompleta</h1>
 
-		<p>Nos dimos cuenta de que la última actualización de su instalación de phpBB no se ha completado. Visite el <a href="%1$s" title="%1$s">actualizador de base de datos</a>, asegurese de que <em>actualizar sólo la base de datos</em> está seleccionado y haga clic en <strong>Enviar</strong>. No olvide eliminar el directorio "install" después de haber actualizado la base de datos correctamente.</p>',
+		<p>Nos dimos cuenta de que la última actualización de su instalación de phpBB no se ha completado. Visite el <a href="%1$s" title="%1$s">actualizador de base de datos</a>, asegurese de que <em>actualizar sólo la base de datos</em> está seleccionado y haga clic en <strong>Enviar</strong>. No olvide eliminar el directorio “install” después de haber actualizado la base de datos correctamente.</p>',
 
 	//
 	// Server data
@@ -357,9 +357,9 @@ $lang = array_merge($lang, array(
 		<p>La forma recomendada de actualización para actualizar su instalación mencionada anteriormente, sólo es válida para el paquete de actualización automática. Usted también puede actualizar la instalación utilizando los métodos enumerados en el documento INSTALL.html. Los pasos para actualizar automáticamente phpBB3 son:</p>
 
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Visite la <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">página de descargas de phpBB.com</a> y descargue el archivo "Paquete de Actualización automática de phpBB".<br /><br /></li>
+			<li>Visite la <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">página de descargas de phpBB.com</a> y descargue el archivo “Paquete de Actualización automática de phpBB”.<br /><br /></li>
 			<li>Desempaquete el archivo.<br /><br /></li>
-			<li>Suba las carpetas de instalación descomprimida "install" y "vendor" completa a la carpeta raiz de phpBB (donde está el archivo config.php).<br /><br /></li>
+			<li>Suba las carpetas de instalación descomprimida “install” y “vendor” completa a la carpeta raiz de phpBB (donde está el archivo config.php).<br /><br /></li>
 		</ul>
 
 		<p>Una vez subido su sitio estará fuera de línea para los usuarios normales debido a que la carpeta de instalación se halla presente.<br /><br />

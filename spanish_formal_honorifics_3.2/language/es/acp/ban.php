@@ -49,8 +49,8 @@ $lang = array_merge($lang, array(
 	'BAN_REASON'			=> 'Razón de la exclusión',
 	'BAN_GIVE_REASON'		=> 'Razón de la exclusión mostrada al usuario excluídon',
 	'BAN_UPDATE_SUCCESSFUL'		=> 'La lista de exclusiones ha sido actualizada correctamente.',
-	'BANNED_UNTIL_DATE'		=> 'hasta %s', // Ejemplo: "hasta Lun 13.Jul.2009, 14:44"
-	'BANNED_UNTIL_DURATION'		=> '%1$s (hasta %2$s)', // Ejemplo: "7 días (hasta Mar 14.Jul.2009, 14:44)"
+	'BANNED_UNTIL_DATE'		=> 'hasta %s', // Ejemplo: “hasta Lun 13.Jul.2009, 14:44”
+	'BANNED_UNTIL_DURATION'		=> '%1$s (hasta %2$s)', // Ejemplo: “7 días (hasta Mar 14.Jul.2009, 14:44)”
 
 	'EMAIL_BAN'			=> 'Excluir una o más direcciones de email',
 	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Habilite esto para quitar la dirección de email ingresada de todos las exclusiones actuales.',

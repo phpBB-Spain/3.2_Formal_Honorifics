@@ -72,7 +72,7 @@ $lang = array_merge($lang, array(
 	'FIND_USERNAME_EXPLAIN'	=> 'Use este formulario para buscar usuarios específicos. No necesita rellenar todos los campos. Para indicar datos parciales use * como comodín. Cuando introduzca fechas, use el formato <kbd>YYYY-MM-DD</kbd>, p.ej. <samp>2004-02-29</samp>. Use los checkboxes para seleccionar uno o más usuarios (Se aceptan varios usuarios dependiendo del formulario en sí mismo) y clic en el botón Seleccionar Marcados para volver al formulario previo.',
 	'FLOOD_EMAIL_LIMIT'		=> 'No puede enviar otro email tan pronto. Por favor intente más tarde.',
 
-	'GROUP_LEADER'			=> 'Líder del grupo',
+	'GROUP_LEADER'			=> 'Responsables del grupo',
 
 	'HIDE_MEMBER_SEARCH'    => 'Ocultar búsqueda de usuarios',
 

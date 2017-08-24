@@ -139,7 +139,7 @@ $lang = array_merge($lang, array(
 
 	'NO_AUTH_SETTING_FOUND'		=> 'Configuración de permisos no definida.',
 	'NO_ROLE_ASSIGNED'			=> 'Ningún rol asignado…',
-	'NO_ROLE_ASSIGNED_EXPLAIN'	=> 'Configurar este rol no cambia ningún permiso a la derecha. Si quiere limpiar/eliminar todos los permisos debería usar el enlace "Todo <strong>NO</strong>".',
+	'NO_ROLE_ASSIGNED_EXPLAIN'	=> 'Configurar este rol no cambia ningún permiso a la derecha. Si quiere limpiar/eliminar todos los permisos debería usar el enlace “Todo <strong>NO</strong>”.',
 	'NO_ROLE_AVAILABLE'			=> 'Ningún rol disponible',
 	'NO_ROLE_NAME_SPECIFIED'	=> 'Por favor dele un nombre al rol.',
 	'NO_ROLE_SELECTED'			=> 'No se puede encontrar el rol.',

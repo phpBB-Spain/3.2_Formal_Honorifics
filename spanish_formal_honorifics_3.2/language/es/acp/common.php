@@ -248,9 +248,9 @@ $lang = array_merge($lang, array(
 	'CURRENT_VERSION'		=> 'Versión actual',
 
 	'DEACTIVATE'				=> 'Desactivar',
-	'DIRECTORY_DOES_NOT_EXIST'	=> 'La ruta introducida "%s" no existe.',
-	'DIRECTORY_NOT_DIR'			=> 'La ruta introducida "%s" no es un directorio.',
-	'DIRECTORY_NOT_WRITABLE'	=> 'La ruta introducida "%s" no se puede escribir.',
+	'DIRECTORY_DOES_NOT_EXIST'	=> 'La ruta introducida “%s” no existe.',
+	'DIRECTORY_NOT_DIR'			=> 'La ruta introducida “%s” no es un directorio.',
+	'DIRECTORY_NOT_WRITABLE'	=> 'La ruta introducida “%s” no se puede escribir.',
 	'DISABLE'					=> 'Deshabilitar',
 	'DOWNLOAD'					=> 'Descargar',
 	'DOWNLOAD_AS'				=> 'Descargar como',
@@ -539,12 +539,12 @@ $lang = array_merge($lang, array(
 	'LOG_ATTACH_FILEUPLOAD'		=> '<strong>Archivo huérfano subido a Mensaje</strong><br />» ID %1$d - %2$s',
 	'LOG_ATTACH_ORPHAN_DEL'		=> '<strong>Archivo huérfano borrado</strong><br />» %s',
 
-	'LOG_BAN_EXCLUDE_USER'	=> '<strong>Usuario quitado de exclusión</strong> por razón "<em>%1$s</em>"<br />» %2$s ',
-	'LOG_BAN_EXCLUDE_IP'	=> '<strong>IP quitada de exclusión</strong> por razón "<em>%1$s</em>"<br />» %2$s ',
-	'LOG_BAN_EXCLUDE_EMAIL'	=> '<strong>Email quitado de exclusión</strong> por razón "<em>%1$s</em>"<br />» %2$s ',
-	'LOG_BAN_USER'			=> '<strong>Excluido: usuario</strong> por razón "<em>%1$s</em>"<br />» %2$s ',
-	'LOG_BAN_IP'			=> '<strong>Excluida: IP</strong> por razón "<em>%1$s</em>"<br />» %2$s',
-	'LOG_BAN_EMAIL'			=> '<strong>Excluido: email</strong> por razón "<em>%1$s</em>"<br />» %2$s',
+	'LOG_BAN_EXCLUDE_USER'	=> '<strong>Usuario quitado de exclusión</strong> por razón “<em>%1$s</em>”<br />» %2$s ',
+	'LOG_BAN_EXCLUDE_IP'	=> '<strong>IP quitada de exclusión</strong> por razón “<em>%1$s</em>”<br />» %2$s ',
+	'LOG_BAN_EXCLUDE_EMAIL'	=> '<strong>Email quitado de exclusión</strong> por razón “<em>%1$s</em>”<br />» %2$s ',
+	'LOG_BAN_USER'			=> '<strong>Excluido: usuario</strong> por razón “<em>%1$s</em>”<br />» %2$s ',
+	'LOG_BAN_IP'			=> '<strong>Excluida: IP</strong> por razón “<em>%1$s</em>”<br />» %2$s',
+	'LOG_BAN_EMAIL'			=> '<strong>Excluido: email</strong> por razón “<em>%1$s</em>”<br />» %2$s',
 	'LOG_UNBAN_USER'		=> '<strong>Quitado excluido: usuario</strong><br />» %s',
 	'LOG_UNBAN_IP'			=> '<strong>Quitado excluida: IP</strong><br />» %s',
 	'LOG_UNBAN_EMAIL'		=> '<strong>Quitado excluido: email</strong><br />» %s',
@@ -667,7 +667,7 @@ $lang = array_merge($lang, array(
 	'LOG_INSTALL_CONVERTED'	=> '<strong>Migrado de %1$s a phpBB %2$s</strong>',
 	'LOG_INSTALL_INSTALLED'	=> '<strong>Instalado phpBB %s</strong>',
 
-	'LOG_IP_BROWSER_FORWARDED_CHECK' 	=> '<strong>Falló identificación de sesión IP/browser/X_FORWARDED_FOR </strong><br />»IP de usuario "<em>%1$s</em>" verificada contra sesión "<em>%2$s</em>", navegador de usuario "<em>%3$s</em>" verificado contra sesión "<em>%4$s</em>"  usuario X_FORWARDED_FOR "<em>%5$s</em>" verificado contra sesión X_FORWARDED_FOR  "<em>%6$s</em>".',
+	'LOG_IP_BROWSER_FORWARDED_CHECK' 	=> '<strong>Falló identificación de sesión IP/browser/X_FORWARDED_FOR </strong><br />»IP de usuario “<em>%1$s</em>” verificada contra sesión “<em>%2$s</em>”, navegador de usuario “<em>%3$s</em>” verificado contra sesión “<em>%4$s</em>”  usuario X_FORWARDED_FOR “<em>%5$s</em>” verificado contra sesión X_FORWARDED_FOR  “<em>%6$s</em>”.',
 
 	'LOG_JAB_CHANGED'			=> '<strong>Jabber: cuenta cambiada</strong>',
 	'LOG_JAB_PASSCHG'			=> '<strong>Jabber: contraseña cambiada</strong>',
@@ -682,7 +682,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_MASS_EMAIL'		=> '<strong>Enviado: email masivo</strong><br />» %s',
 
-	'LOG_MCP_CHANGE_POSTER'	=> '<strong>Cambiado remitente en el tema "%1$s"</strong><br />» de %2$s a %3$s',
+	'LOG_MCP_CHANGE_POSTER'	=> '<strong>Cambiado remitente en el tema “%1$s”</strong><br />» de %2$s a %3$s',
 
 	'LOG_MODULE_DISABLE'	=> '<strong>Módulo deshabilitado</strong><br />» %s',
 	'LOG_MODULE_ENABLE'		=> '<strong>Módulo habilitado</strong><br />» %s',
@@ -775,9 +775,9 @@ $lang = array_merge($lang, array(
 	'LOG_UPDATE_PHPBB'		=> '<strong>Actualizado: phpBB de versión %1$s a versión %2$s</strong>',
 
 	'LOG_USER_ACTIVE'		=> '<strong>Activado: usuario</strong><br />» %s',
-	'LOG_USER_BAN_USER'		=> '<strong>Excluido: usuario, vía administración de usuarios</strong> por razón "<em>%1$s</em>"<br />» %2$s',
-	'LOG_USER_BAN_IP'		=> '<strong>Excluida: IP, vía administración de usuarios</strong> por razón "<em>%1$s</em>"<br />» %2$s',
-	'LOG_USER_BAN_EMAIL'	=> '<strong>Excluido: email, vía administración de usuarios</strong> por razón "<em>%1$s</em>"<br />» %2$s',
+	'LOG_USER_BAN_USER'		=> '<strong>Excluido: usuario, vía administración de usuarios</strong> por razón “<em>%1$s</em>”<br />» %2$s',
+	'LOG_USER_BAN_IP'		=> '<strong>Excluida: IP, vía administración de usuarios</strong> por razón “<em>%1$s</em>”<br />» %2$s',
+	'LOG_USER_BAN_EMAIL'	=> '<strong>Excluido: email, vía administración de usuarios</strong> por razón “<em>%1$s</em>”<br />» %2$s',
 	'LOG_USER_DELETED'		=> '<strong>Borrado: usuario</strong><br />» %s',
 	'LOG_USER_DEL_ATTACH'	=> '<strong>Borrado: todos los adjuntos hechos por el usuario</strong><br />» %s',
 	'LOG_USER_DEL_AVATAR'	=> '<strong>Borrado: avatar de usuario</strong><br />» %s',
@@ -785,13 +785,13 @@ $lang = array_merge($lang, array(
 	'LOG_USER_DEL_POSTS'	=> '<strong>Borrado: todos los mensajes hechos por el usuario</strong><br />» %s',
 	'LOG_USER_DEL_SIG'		=> '<strong>Borrado: firma de usuario</strong><br />» %s',
 	'LOG_USER_INACTIVE'		=> '<strong>Desactivado: usuario</strong><br />» %s',
-	'LOG_USER_MOVE_POSTS'	=> '<strong>Movido: mensajes </strong><br />» hechos por "%1$s" a foro "%2$s"',
+	'LOG_USER_MOVE_POSTS'	=> '<strong>Movido: mensajes </strong><br />» hechos por “%1$s” a foro “%2$s”',
 	'LOG_USER_NEW_PASSWORD'	=> '<strong>Cambiada: clave de usuario</strong><br />» %s',
 	'LOG_USER_REACTIVATE'	=> '<strong>Forzada: reactivación de cuenta de usuario</strong><br />» %s',
 	'LOG_USER_REMOVED_NR'	=> '<strong>Marca de Nuevo Usuario Registrado eliminada del usuario</strong><br />» %s',
 
-	'LOG_USER_UPDATE_EMAIL'	=> '<strong>Usuario "%1$s" cambió email</strong><br />» de "%2$s" a "%3$s"',
-	'LOG_USER_UPDATE_NAME'	=> '<strong>Cambiado: nombre de usuario</strong><br />» de "%1$s" a "%2$s"',
+	'LOG_USER_UPDATE_EMAIL'	=> '<strong>Usuario “%1$s” cambió email</strong><br />» de “%2$s” a “%3$s”',
+	'LOG_USER_UPDATE_NAME'	=> '<strong>Cambiado: nombre de usuario</strong><br />» de “%1$s” a “%2$s”',
 	'LOG_USER_USER_UPDATE'	=> '<strong>Actualizado: detalles de usuario</strong><br />» %s',
 
 	'LOG_USER_ACTIVE_USER'		=> '<strong>Cuenta de usuario activada</strong>',

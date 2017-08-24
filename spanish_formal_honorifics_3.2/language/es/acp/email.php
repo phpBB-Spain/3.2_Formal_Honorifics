@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 
 
 $lang = array_merge($lang, array(
-	'ACP_MASS_EMAIL_EXPLAIN'	=> 'Desde aquí puede enviar un email a todos los usuarios, o a los usuarios de un grupo específico. Para esto se enviará un email a la dirección administrativa proporcionada, con copia oculta a todos los receptores. Si el grupo de personas es muy grande, por favor sea paciente después de pulsar en "Enviar" y no detenga el proceso por la mitad. Es normal que enviar un email masivo lleve algún tiempo, será notificado cuando se complete el proceso',
+	'ACP_MASS_EMAIL_EXPLAIN'	=> 'Desde aquí puede enviar un email a todos los usuarios, o a los usuarios de un grupo específico. Para esto se enviará un email a la dirección administrativa proporcionada, con copia oculta a todos los receptores. Si el grupo de personas es muy grande, por favor sea paciente después de pulsar en “Enviar” y no detenga el proceso por la mitad. Es normal que enviar un email masivo lleve algún tiempo, será notificado cuando se complete el proceso',
 	'ALL_USERS'					=> 'Todos los usuarios',
 
 	'COMPOSE'				=> 'Escribir',
