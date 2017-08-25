@@ -622,7 +622,7 @@ $lang = array_merge($lang, array(
 		'DELETE_MESSAGE'	=> 'Borrar mensaje',
 	),
 	'PM_CHECK'	=> array(
-		'SUBJECT'	=> 'Tema',
+		'SUBJECT'	=> 'Asunto',
 		'SENDER'	=> 'Remitente',
 		'MESSAGE'	=> 'Mensaje',
 		'STATUS'	=> 'Estado',
