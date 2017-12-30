@@ -94,7 +94,7 @@ $lang = array_merge($lang, array(
 
 	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Actualiza los hashes de contraseñas caducadas para ser hash con bcrypt.',
 
-	'CLI_ERROR_INVALID_STABILITY' => '“%s” debe establecerse en “estable” o “inestable”.',
+	'CLI_ERROR_INVALID_STABILITY' => '"%s" debe establecerse en "estable" o "inestable".',
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Activar (o desactivar) una cuenta de usuario.',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Nombre de usuario de la cuenta para activar.',
@@ -117,12 +117,14 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'No se pudo habilitar la extensión %s',
 	'CLI_EXTENSION_ENABLE_SUCCESS'		=> 'Extensión %s habilitada correctamente',
 	'CLI_EXTENSION_ENABLED'				=> 'Extensión %s ya está habilitada',
+	'CLI_EXTENSION_NOT_EXIST'			=> 'Extensión %s no existe',
 	'CLI_EXTENSION_NAME'				=> 'Nombre de la extensión',
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'No se pudo purgar la extensión %s',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'Extensión %s purgada correctamente',
 	'CLI_EXTENSION_UPDATE_FAILURE'		=> 'No se pudo actualizar la extensión %s',
 	'CLI_EXTENSION_UPDATE_SUCCESS'		=> 'Actualizada correctamente la extensión %s',
 	'CLI_EXTENSION_NOT_FOUND'			=> 'No se encontraron extensiones.',
+	'CLI_EXTENSION_NOT_ENABLEABLE'		=> 'Extensión %s no es habilitable.',
 	'CLI_EXTENSIONS_AVAILABLE'			=> 'Disponible',
 	'CLI_EXTENSIONS_DISABLED'			=> 'Deshabilitada',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Habilitada',
