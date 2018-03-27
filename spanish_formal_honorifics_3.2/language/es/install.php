@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Soporte',
-	'SUPPORT_BODY'		=> 'Se proporcionará soporte completo para la versión estable actual de phpBB3, de forma gratuita. Esto incluye:</p><ul><li>instalación</li><li>configuración</li><li>cuestiones técnicas</li><li>problemas relacionados con errores potenciales en el software</li><li>actualizaciones de las versiones Release Candidate (RC) a la última versión estable</li><li>conversiones desde phpBB 2.0.x a phpBB3</li><li>conversiones desde otros software de foros a phpBB3 (por favor, consulte el <a href="https://www.phpbb.com/community/viewforum.php?f=486">Foro de Conversiones</a>)</li></ul><p>Animamos a los usuarios que todavía trabajan con versiones Beta de phpBB3, el reemplazar su instalación con una nueva copia de la última versión.</p><h2>Extensiones / Estilos</h2><p>Para cuestiones relacionadas con extensiones, por favor, escriba en el <a href="https://www.phpbb.com/community/viewforum.php?f=451">Foro de Extensiones</a>.<br />Para cuestiones relacionadas con estilos, plantillas y temas, por favor, escriba en el <a href="https://www.phpbb.com/community/viewforum.php?f=471">Foro de Estilos</a>.<br /><br />Si su pregunta se refiere a un paquete específico, por favor, escriba directamente en el tema dedicado al paquete.</p><h2>Obtención de Soporte</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">El Paquete de Bienvenida de phpBB</a><br /><a href="https://www.phpbb.com/support/">Sección de Soporte</a><br /><a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/">Guía de Inicio Rápido</a> (en inglés).<br /><br />Para asegurarse que está actualizado a la última versión, ¿porqué no <a href="https://www.phpbb.com/support/">se suscribe a nuestra lista de correo</a>?<br /><br />',
+	'SUPPORT_BODY'		=> 'Se proporcionará soporte completo para la versión estable actual de phpBB3, de forma gratuita. Esto incluye:</p><ul><li>instalación</li><li>configuración</li><li>cuestiones técnicas</li><li>problemas relacionados con errores potenciales en el software</li><li>actualizaciones de las versiones Release Candidate (RC) a la última versión estable</li><li>conversiones desde phpBB 2.0.x a phpBB3</li><li>conversiones desde otros software de foros a phpBB3 (por favor, consulte el <a href="https://www.phpbb.com/community/viewforum.php?f=486">Foro de Conversiones</a>)</li></ul><p>Animamos a los usuarios que todavía trabajan con versiones Beta de phpBB3, el reemplazar su instalación con una nueva copia de la última versión.</p><h2>Extensiones / Estilos</h2><p>Para cuestiones relacionadas con extensiones, por favor, escriba en el <a href="https://www.phpbb.com/community/viewforum.php?f=451">Foro de Extensiones</a>.<br />Para cuestiones relacionadas con estilos, plantillas y temas, por favor, escriba en el <a href="https://www.phpbb.com/community/viewforum.php?f=471">Foro de Estilos</a>.<br /><br />Si su pregunta se refiere a un paquete específico, por favor, escriba directamente en el tema dedicado al paquete.</p><h2>Obtención de Soporte</h2><p><a href="https://www.phpbb.com/support/">Sección de Soporte</a><br /><a href="https://www.phpbb.com/support/docs/en/3.2/ug/quickstart/">Guía de Inicio Rápido</a> (en inglés).<br /><br />Para asegurarse de estar al día con las últimas noticias y lanzamientos, síganos en <a href="https://www.twitter.com/phpbb/">Twitter</a> y <a href="https://www.facebook.com/phpbb/">Facebook</a><br /><br />',
 
 	// License
 	'LICENSE_TITLE'		=> 'Licencia Pública General',
@@ -191,6 +191,7 @@ $lang = array_merge($lang, array(
 	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
 
 	// Errors
+	'INST_ERR_DB'					=> 'Error en la instalación de la base de datos',
 	'INST_ERR_NO_DB'				=> 'No se puede cargar el módulo PHP para la base de datos seleccionada.',
 	'INST_ERR_DB_INVALID_PREFIX'	=> 'El prefijo introducido no es válido. Se debe comenzar con una letra y sólo debe contener letras, números y subrayados.',
 	'INST_ERR_PREFIX_TOO_LONG'		=> 'El prefijo de tabla que especificó es muy largo. La longitud máxima es de %d caracteres.',
@@ -352,17 +353,40 @@ $lang = array_merge($lang, array(
 
 		<br />
 
-		<h1>Cómo actualizar su instalación con el paquete de actualización automática</h1>
+		<h1>Cómo actualizar su instalación con el paquete completo</h1>
 
-		<p>La forma recomendada de actualización para actualizar su instalación mencionada anteriormente, sólo es válida para el paquete de actualización automática. Usted también puede actualizar la instalación utilizando los métodos enumerados en el documento INSTALL.html. Los pasos para actualizar automáticamente phpBB3 son:</p>
+		<p>La forma recomendada de actualizar su instalación es utilizando el paquete completo. Si los archivos core phpBB se han modificado en su instalación, es posible que desee utilizar el paquete de actualización automática para no perder estos cambios. También puede actualizar su instalación utilizando los otros métodos enumerados en el documento INSTALL.html. Los pasos para actualizar phpBB3 usando el paquete completo son los siguientes:</p>
 
+		<ol style="margin-left: 20px; font-size: 1.1em;">
+			<li><strong class="error">Copia de seguridad de todos los archivos y base de datos.</strong></li>
+			<li>Ir a la <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">Página de descargas de phpBB.com</a> y descargue el último archivo del "Full Package" (paquete completo).</li>
+			<li>Descomprima el archivo.</li>
+			<li>Quitar (eliminar) el archivo <code class="inline">config.php</code>, y las carpetas <code class="inline">/images</code>, <code class="inline">/store</code> y <code class="inline">/files</code> <em>del paquete</em> (NO de su servidor).</li>
+			<li>Ir al PCA > GENERAL > Configuración del Sitio > Estilo del foro y asegurese de que prosilver es el estilo por defecto. Si no es así, ponga por defecto prosilver.</li>
+			<li>Borre las carpetas <code class="inline">/vendor</code> y <code class="inline">/cache</code> de la carpeta raíz del foro, en su servidor.</li>
+			<li>Usando FTP o SSH suba los archivos y carpetas restantes (es decir, el CONTENIDO restante de la carpeta phpBB3) en la carpeta raíz de la instalación del foro en el servidor, sobrescribiendo los archivos existentes. (Nota: tenga cuidado de no borrar ninguna extensión en su carpeta <code class="inline">/ext</code> al subir el nuevo contenido de phpBB3)</li>
+			<li><strong><a href="%1$s" title="%1$s">Ahora inicie el proceso de actualización, apuntando su navegador a la carpeta de instalación</a>.</strong></li>
+			<li>Siga los pasos para actualizar la base de datos y deje que se ejecute hasta su finalización.</li>
+			<li>Usando FTP o SSH borre la carpeta <code class="inline">/install</code> de la raíz de su foro instalado.<br><br></li>
+		</ol>
+		
+		<p>Ahora tiene un nuevo foro actualizado que contiene todos sus usuarios y mensajes. Tareas de seguimiento:</p>
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Visite la <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">página de descargas de phpBB.com</a> y descargue el archivo “Paquete de Actualización automática de phpBB”.<br /><br /></li>
-			<li>Desempaquete el archivo.<br /><br /></li>
-			<li>Suba las carpetas de instalación descomprimida “install” y “vendor” completa a la carpeta raiz de phpBB (donde está el archivo config.php).<br /><br /></li>
+			<li>Actualiza tu paquete de lenguaje</li>
+			<li>Actualiza tu estilo<br><br></li>
 		</ul>
 
-		<p>Una vez subido su sitio estará fuera de línea para los usuarios normales debido a que la carpeta de instalación se halla presente.<br /><br />
+		<h1>Cómo actualizar su instalación con el paquete de actualización automática</h1>
+
+		<p>El paquete de actualización automática solo se recomienda en caso de que se hayan modificado los archivos core phpBB en su instalación. También puede actualizar su instalación utilizando los métodos enumerados en el documento INSTALL.html. Los pasos para actualizar phpBB3 usando el paquete de actualización automática son:</p>
+
+		<ul style="margin-left: 20px; font-size: 1.1em;">
+			<li>Visite la <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">página de descargas de phpBB.com</a> y descargue el archivo “Paquete de Actualización automática de phpBB”.</li>
+			<li>Desempaquete el archivo.<br /><br /></li>
+			<li>Suba las carpetas de instalación descomprimida “install” y “vendor” completa a la carpeta raiz de phpBB (donde está el archivo config.php).<br><br></li>
+		</ul>
+
+		<p>Una vez subido su sitio estará fuera de línea para los usuarios normales debido a que la carpeta de instalación se halla presente.<br><br>
 		<strong><a href="%1$s" title="%1$s">Ahora comenzará el proceso de actualización yendo con su navegador a la carpeta install</a>.</strong><br />
 		<br />
 		Posteriormente será guiado a través del proceso de actualización. Será notificado después de que la actualización se complete.
