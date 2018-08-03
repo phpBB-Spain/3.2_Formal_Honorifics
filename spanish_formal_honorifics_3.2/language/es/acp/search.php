@@ -98,8 +98,8 @@ $lang = array_merge($lang, array(
 
 	'MAX_SEARCH_CHARS'						=> 'Máximo de caracteres indexados para búsqueda',
 	'MAX_SEARCH_CHARS_EXPLAIN'				=> 'Palabras con no más que esta cantidad de caracteres serán indexadas para búsqueda.',
-    'MAX_NUM_SEARCH_KEYWORDS'            	=> 'Número máximo de palabras clave permitidas',
-    'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'      	=> 'Número máximo de palabras que el usuario puede buscar. Un valor de 0 permite un número ilimitado de palabras.',
+    	'MAX_NUM_SEARCH_KEYWORDS'            	=> 'Número máximo de palabras clave permitidas',
+    	'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'      	=> 'Número máximo de palabras que el usuario puede buscar. Un valor de 0 permite un número ilimitado de palabras.',
 	'MIN_SEARCH_CHARS'						=> 'Mínimo de caracteres indexados para búsqueda',
 	'MIN_SEARCH_CHARS_EXPLAIN'				=> 'Palabras con no menos que esta cantidad de caracteres serán indexadas para búsqueda.',
 	'MIN_SEARCH_AUTHOR_CHARS'				=> 'Mínimo de caracteres de nombre de autor',
@@ -116,7 +116,10 @@ $lang = array_merge($lang, array(
 		2	=> 'El promedio actual de indexación es aproximadamente %1$.1f mensajes por segundo.<br />Indexación en curso…',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
-		2	=> 'Todos los mensajes hasta el ID %2$d han sido borrados del índice de búsqueda.<br />Eliminación en curso…',
+		2	=> 'Todos los mensajes hasta el ID %2$d han sido borrados del índice de búsqueda, de los cuales %1$d mensajes estaban dentro de este paso..<br />',
+	),
+	'SEARCH_INDEX_DELETE_REDIRECT_RATE'		=> array(
+		2	=> 'La tasa actual de borrado es de aproximadamente %1$.1f mensajes por segundo.<br />Borrado en progreso…',
 	),
 	'SEARCH_INDEX_CREATED'					=> 'Indexados todos los mensajes en la base de datos del sitio correctamente.',
 	'SEARCH_INDEX_REMOVED'					=> 'Indices de búsquedas para este motor borrados correctamente.',
