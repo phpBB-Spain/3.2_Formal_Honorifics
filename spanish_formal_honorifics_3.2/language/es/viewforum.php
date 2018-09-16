@@ -56,6 +56,7 @@ $lang = array_merge($lang, array(
 	'NO_NEW_POSTS_HOT'		=> 'No hay mensajes nuevos [ Popular ]',
 	'NO_NEW_POSTS_LOCKED'	=> 'No hay mensajes nuevos [ Cerrado ]',
 	'NO_READ_ACCESS'		=> 'No tiene los permisos requeridos para ver o leer temas en este foro.',
+	'NO_FORUMS_IN_CATEGORY'	=> 'Está categoría no tiene foros.',
 	'NO_UNREAD_POSTS_HOT'      => 'No hay mensajes sin leer [ Popular ]',
 	'NO_UNREAD_POSTS_LOCKED'   => 'No hay mensajes sin leer [ Cerrado ]',
 
