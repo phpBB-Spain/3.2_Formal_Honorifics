@@ -371,7 +371,7 @@ $lang = array_merge($lang, array(
  	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Aquí puede habilitar y deshabilitar la página de contacto y también añadir un texto que será mostrado en la página.',
  
  	'CONTACT_US_ENABLE'				=> 'Habilitar página de contacto',
- 	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Está página permite a los usuarios enviar emails a los Administradores del foro. Tenga en cuenta que la opción de correos electrónicos en todo el foro debe estar habilitada también. Puede encontrar esta opción en General > Comunicación Cliente > Configuración de email.',
+ 	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Está página permite a los usuarios enviar emails a los Administradores del foro. Tenga en cuenta que la opción de correos electrónicos en todo el foro debe estar habilitada también. Puede encontrar esta opción en General &gt; Comunicación Cliente &gt; Configuración de email.',
  
  	'CONTACT_US_INFO'				=> 'Información de contacto',
  	'CONTACT_US_INFO_EXPLAIN'		=> 'El mensaje se muestra en la página de contacto',
