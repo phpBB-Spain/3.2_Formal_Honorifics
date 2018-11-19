@@ -1,5 +1,5 @@
 Subject: Notificación de nuevo tema - “{FORUM_NAME}”
-Lista-Darse de baja: <{U_STOP_WATCHING_TOPIC}>
+Lista-Darse de baja: <{U_STOP_WATCHING_FORUM}>
 
 Hola {USERNAME},
 

@@ -1,5 +1,5 @@
 Subject: Notificación de respuesta al tema - “{TOPIC_TITLE}”
-Lista-Darse de baja: <{U_STOP_WATCHING_FORUM}>
+Lista-Darse de baja: <{U_STOP_WATCHING_TOPIC}>
 
 Hola {USERNAME},
 
