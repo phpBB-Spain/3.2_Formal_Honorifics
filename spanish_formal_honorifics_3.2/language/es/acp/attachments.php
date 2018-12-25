@@ -112,8 +112,6 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'					=> 'Dimensiones de la imagen enlazada',
 	'IMAGE_LINK_SIZE_EXPLAIN'			=> 'Mostrar la imagen adjunta como un enlace si es más grande. 0px por 0px significa ilimitado.',
-	'IMAGICK_PATH'						=> 'Ruta a ImageMagick',
-	'IMAGICK_PATH_EXPLAIN'				=> 'Ruta completa al programa imagemagick, por ejemplo: <samp>/usr/bin/</samp>',
 
 	'MAX_ATTACHMENTS'					=> 'Número de adjuntos máximos por mensaje',
 	'MAX_ATTACHMENTS_PM'				=> 'Número de adjuntos máximos por Mensaje Privado',
@@ -136,7 +134,6 @@ $lang = array_merge($lang, array(
 	'NO_EXT_GROUP_SPECIFIED'			=> 'No especificó Grupo de Extensiones.',
 	'NO_FILE_CAT'						=> 'Ninguno',
 	'NO_IMAGE'							=> 'Sin imagen',
-	'NO_THUMBNAIL_SUPPORT'				=> 'El soporte para vista en miniatura ha sido deshabilitado porque no se encontró la librería GD ni el programa imagemagick.',
 	'NO_UPLOAD_DIR'						=> 'La carpeta de subidas que especificó no existe.',
 	'NO_WRITE_UPLOAD'					=> 'La carpeta de subidas que especificó no se puede escribir. Por favor, cambie los permisos en el servidor.',
 
@@ -148,7 +145,6 @@ $lang = array_merge($lang, array(
 	'REMOVE_DISALLOWED_IPS'			=> 'Eliminar o des-excluir IPs/hostnames <em>no permitidas</em>',
 	'RESYNC_FILES_STATS_CONFIRM'	=> '¿Está seguro que desea resincronizar las estadísticas de archivos?',
 
-	'SEARCH_IMAGICK'					=> 'Buscar ImageMagick',
 	'SECURE_ALLOW_DENY'					=> 'Lista de Permitidos/No permitidos',
 	'SECURE_ALLOW_DENY_EXPLAIN'			=> 'Cuando está habilitada la Descarga Segura cambia el comportamiento por defecto de la Lista de Permitidos/No permitidos de <strong>lista blanca</strong> (Permitido) a <strong>lista negra</strong> (No permitido)',
 	'SECURE_DOWNLOADS'					=> 'Habilitar Descarga Segura',
