@@ -19,4 +19,4 @@ Huan Manwë (Juan Manuel)
 
 ## © [phpBB España](https://www.phpbb-es.com) 2003 / 2019
 
-![phpBB Spain](https://www.phpbb-es.com/images/logo_es.png) 
+![phpBB Spain](https://www.phpbb-es.com/images/logo_new_small.png) 
