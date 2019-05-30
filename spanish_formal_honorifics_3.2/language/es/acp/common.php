@@ -603,8 +603,8 @@ $lang = array_merge($lang, array(
 	'LOG_REPORT_CLOSED'			=> '<strong>Informe cerrado</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Informe borrado</strong><br />» %s',
 	'LOG_RESTORE_TOPIC'			=> '<strong>Tema restaurado “%1$s” escrito por</strong><br />» %2$s',
- 	'LOG_SOFTDELETE_POST'		=> '<strong>Soft mensaje borrado “%1$s” escrito por “%2$s” por la siguiente razón</strong><br />» %3$s',
- 	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Soft tema borrado “%1$s” escrito por “%2$s” por la siguiente razón</strong><br />» %3$s',
+	'LOG_SOFTDELETE_POST'		=> '<strong>Mensaje borrado temporalmente “%1$s” escrito por “%2$s” por la siguiente razón</strong><br />» %3$s',
+	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Tema borrado temporalmente “%1$s” escrito por “%2$s” por la siguiente razón</strong><br />» %3$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Mensajes divididos movidos</strong><br />» a %s',
 	'LOG_SPLIT_SOURCE'			=> '<strong>Mensajes divididos</strong><br />» de %s',
 

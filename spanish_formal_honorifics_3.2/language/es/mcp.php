@@ -205,9 +205,9 @@ $lang = array_merge($lang, array(
 	'MCP_QUEUE_UNAPPROVED_TOPICS'			=> 'Temas esperando aprobación',
 	'MCP_QUEUE_UNAPPROVED_TOPICS_EXPLAIN'	=> 'Esta es una lista de los temas que requieren aprobación antes de que sean visibles a los usuarios',
 	'MCP_QUEUE_DELETED_POSTS'				=> 'Mensajes borrados',
-	'MCP_QUEUE_DELETED_POSTS_EXPLAIN'		=> 'Esta es la lista de todos los mensajes borrados [Soft]. Puede restaurar o borrar permanentemente los mensajes de esta pantalla.',
+	'MCP_QUEUE_DELETED_POSTS_EXPLAIN'		=> 'Esta es la lista de todos los mensajes borrados temporalmente. Puede restaurar o borrar permanentemente los mensajes de esta pantalla.',
 	'MCP_QUEUE_DELETED_TOPICS'				=> 'Temas borrados',
-	'MCP_QUEUE_DELETED_TOPICS_EXPLAIN'		=> 'Esta es la lista de todos los temas borrados [Soft]. Puede restaurar o borrar permanentemente los temas de esta pantalla.',
+	'MCP_QUEUE_DELETED_TOPICS_EXPLAIN'		=> 'Esta es la lista de todos los temas borrados temporalmente. Puede restaurar o borrar permanentemente los temas de esta pantalla.',
 
 	'MCP_VIEW_USER'							=> 'Ver advertencias de un usuario específico',
 
