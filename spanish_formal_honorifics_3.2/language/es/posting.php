@@ -43,6 +43,7 @@ $lang = array_merge($lang, array(
 	'ADD_POLL'					=> 'Agregar encuesta',
 	'ADD_POLL_EXPLAIN'			=> 'Si no quiere agregar una encuesta a su tema, deje los campos en blanco',
 	'ALREADY_DELETED'			=> 'Disculpe, este mensaje ya ha sido borrado.',
+	'ATTACH_COMMENT_NO_EMOJIS'	=> 'El comentario del archivo adjunto contiene caracteres prohibidos (Emoji).',
 	'ATTACH_DISK_FULL'			=> 'No hay suficiente espacio libre en el disco para publicar este adjunto.',    
 	'ATTACH_QUOTA_REACHED'		=> 'Disculpe, la cuota de adjuntos del Sitio está a tope.',
 	'ATTACH_SIG'				=> 'Adjuntar firma (las firmas se pueden modificar en el Panel de Control de Usuario)',
