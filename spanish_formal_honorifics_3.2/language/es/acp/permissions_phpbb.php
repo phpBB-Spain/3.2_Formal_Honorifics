@@ -125,9 +125,9 @@ $lang = array_merge($lang, array(
 	'ACL_F_REPLY'		=> 'Puede responder temas',
 	'ACL_F_EDIT'		=> 'Puede editar sus mensajes',
 	'ACL_F_DELETE'		=> 'Puede borrar permanentemente sus propios mensajes',
-	'ACL_F_SOFTDELETE'	=> 'Puede borrar temporalmente sus mensajes<br /><em>Moderadores, que tienen permiso de aprobar mensajes, pueden restaurar mensajes borrados.</em>',
+	'ACL_F_SOFTDELETE'	=> 'Puede borrar temporalmente sus mensajes<br><em>Moderadores, que tienen permiso de aprobar mensajes, pueden restaurar mensajes borrados.</em>',
 	'ACL_F_IGNOREFLOOD' => 'Puede ignorar límite de saturación',
-	'ACL_F_POSTCOUNT'	=> 'Incrementar cantidad de mensajes<br /><em>Por favor, obsérvese que este parámetro solo afecta a mensajes nuevos.</em>',
+	'ACL_F_POSTCOUNT'	=> 'Incrementar cantidad de mensajes<br><em>Por favor, obsérvese que este parámetro solo afecta a mensajes nuevos.</em>',
 	'ACL_F_NOAPPROVE'	=> 'Puede publicar sin aprobación',
 
 	'ACL_F_ATTACH'		=> 'Puede adjuntar archivos',
@@ -147,7 +147,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACL_M_EDIT'		=> 'Puede editar mensajes',
 	'ACL_M_DELETE'		=> 'Puede borrar mensajes permanentemente',
-	'ACL_M_SOFTDELETE'	=> 'Puede borrar mensajes temporalmente<br /><em>Moderadores, que tienen permiso de aprobar mensajes, pueden restaurar mensajes borrados.</em>',
+	'ACL_M_SOFTDELETE'	=> 'Puede borrar mensajes temporalmente<br><em>Moderadores, que tienen permiso de aprobar mensajes, pueden restaurar mensajes borrados.</em>',
 	'ACL_M_APPROVE'		=> 'Puede aprobar y restaurar mensajes',
 	'ACL_M_REPORT'		=> 'Puede cerrar y borrar informes',
 	'ACL_M_CHGPOSTER'	=> 'Puede cambiar autor en mensajes',
@@ -158,9 +158,9 @@ $lang = array_merge($lang, array(
 	'ACL_M_MERGE'	=> 'Puede unir temas',
 
 	'ACL_M_INFO'	=> 'Puede ver detalles de mensaje',
-	'ACL_M_WARN'	=> 'Puede hacer advertencia<br /><em>Este ajuste sólo se asigna a nivel global. No se basa en el foro.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_PM_REPORT'	=> 'Puede cerrar y eliminar informes de mensajes privados<br /><em>Esta configuración sólo se asigna globalmente. No está basado en un foro.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_BAN'		=> 'Puede administrar exclusiones<br /><em>Este ajuste sólo se asigna a nivel global. No se basa en el foro.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_WARN'	=> 'Puede hacer advertencia<br><em>Este ajuste sólo se asigna a nivel global. No se basa en el foro.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_PM_REPORT'	=> 'Puede cerrar y eliminar informes de mensajes privados<br><em>Esta configuración sólo se asigna globalmente. No está basado en un foro.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_BAN'		=> 'Puede administrar exclusiones<br><em>Este ajuste sólo se asigna a nivel global. No se basa en el foro.</em>', // This moderator setting is only global (and not local)
 ));
 
 // Admin Permissions
@@ -180,7 +180,7 @@ $lang = array_merge($lang, array(
 	'ACL_A_BBCODE'		=> 'Puede definir código BBCode',
 	'ACL_A_ATTACH'		=> 'Puede modificar parámetros relativos a adjuntos',
 
-	'ACL_A_USER'		=> 'Puede administrar usuarios<br /><em>Esto también incluye ver el agente navegador del usuario dentro de la lista de usuarios conectados.</em>',
+	'ACL_A_USER'		=> 'Puede administrar usuarios<br><em>Esto también incluye ver el agente navegador del usuario dentro de la lista de usuarios conectados.</em>',
 	'ACL_A_USERDEL'		=> 'Puede borrar/purgar usuarios',
 	'ACL_A_GROUP'		=> 'Puede administrar grupos',
 	'ACL_A_GROUPADD'	=> 'Puede agregar nuevos grupos',
