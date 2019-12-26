@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_ADDED'				=> 'BBCode añadido correctamente.',
 	'BBCODE_EDITED'				=> 'BBCode editado correctamente.',
-	'BBCODE_DELETED'			=> 'El BBCode se ha eliminado con éxito.',
+	'BBCODE_DELETED'			=> 'El BBCode se ha eliminado correctamente.',
 	'BBCODE_NOT_EXIST'			=> 'El BBCode seleccionado no existe.',
 	'BBCODE_HELPLINE'			=> 'Línea de ayuda',
 	'BBCODE_HELPLINE_EXPLAIN'	=> 'Este campo contiene el consejo de ayuda del BBCode',
@@ -56,7 +56,6 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_INVALID_TAG_NAME'	=> 'El nombre elegido para este BBCode ya existe.',
 	'BBCODE_INVALID'			=> 'Su BBCode está construido en un formulario no válido.',
-	'BBCODE_OPEN_ENDED_TAG'		=> 'Su BBCode personalizado debe tener tanto la etiqueta de apertura como la de cierre.',
 	'BBCODE_TAG'				=> 'Etiqueta',
 	'BBCODE_TAG_TOO_LONG'		=> 'El nombre elegido es muy largo.',
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'La definición de etiqueta que introdujo es muy larga, por favor acórtela.',
@@ -78,13 +77,13 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_BBCODES'		=> 'No puede crear más BBCodes. Por favor borre uno o más BBCodes y luego inténtelo de nuevo.',
 
 	'tokens'	=>  array(
-		'TEXT'			=> 'Cualquier texto, incluyendo caracteres extraños, números, etc. No debería usar esta marca clave en etiquetas HTML. En cambio intente usar IDENTIFIER, INTTEXT o SIMPLETEXT.',
+		'TEXT'			=> 'Cualquier texto, incluyendo caracteres extraños, números, etc…',
 		'SIMPLETEXT'	=> 'Caracteres del alfabeto latino (A-Z), números, espacios, comas, puntos, menos, más, guión y guión bajo',
 		'INTTEXT'		=> 'Letras de caracteres Unicode, números, espacios, comas, puntos, menos, más, guión, guión bajo y espacios en blanco.',
 		'IDENTIFIER'	=> 'Carecteres del alfabeto latino (A-Z), números, guión y guión bajo',
 		'NUMBER'		=> 'Cualquier serie de dígitos',
 		'EMAIL'			=> 'Una dirección de email válida',
-		'URL'			=> 'Una URL válida usando cualquier protocolo (http, ftp, etc… no puede ser usado para exploits de javascript). Si no se proporciona, se asumirá “http://” antes de la cadena dada',
+		'URL'			=> 'Una URL válida usando cualquier protocolo permitido (http, ftp, etc… no puede ser usado para exploits de javascript). Si no se proporciona, se asumirá “http://” antes de la cadena dada',
 		'LOCAL_URL'		=> 'Una URL local. La URL debe ser relativa a la página del tema y no puede contener nombre de servidor o protocolo, enlaces van precedidos de“%s”',
 		'RELATIVE_URL'	=> 'Una URL relativa. Usted puede utilizar esto para que coincida con las partes de una URL, pero tenga cuidado: una URL completa es una URL relativa válida. Cuando se desea utilizar URLs relativas de su foro, utilice la ficha LOCAL_URL',
 		'COLOR'			=> 'Un color HTML, puede ser bien en formato numérico <samp>#FF1234</samp> o un <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">color CSS</a> como ser <samp>fuchsia</samp> o <samp>InactiveBorder</samp>',
